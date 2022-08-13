@@ -1,15 +1,14 @@
 # WoWReforged #
-Everything we ever did for the Reforged WoW Server is here.  
-I made the layout of the files clear and transparent.  
+Every change we ever made for the Reforged WoW Server you can find here.  
+I made the layout of the files clear and transparent so you can navigate better.  
 
 Server installation
 -----------  
-Simply setup a normal vmangos project from it's source code, then before building it, overwrite the source files with my modded files.
+Simply setup your usual vmangos project from it's source code, then overwrite the source files with my modded files BEFORE BUILD.
 Inside my server source, search the text files for "//L10 MODIFIED" texts, then copy those modded lines.
-The newest vmangos versions could have database layout changes, so most likely you have to change my SQL update files to work properly.  
+The newest vmangos versions could have database layout changes, so you'll most likely have to change the SQL update files for them to work properly.  
 
 Legal note
 -----------  
-There are tools and files in this project that I didn't make, and I have no time to sort them all through.
-Sorry for that.  
-If you own something here that you made for the WoW community and you want me to take it down, just write to this git account's email.
+There are tools and files in this project that I did not make.
+If you own something here you made for the WoW community and you want me to mention you or take it down, just drop me a mail to the address of this git account.
