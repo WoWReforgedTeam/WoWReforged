@@ -1,0 +1,35 @@
+::[Bat To Exe Converter]
+::
+::YAwzoRdxOk+EWAjk
+::fBw5plQjdCuDJH6F+UcjFCxbe0SwOW21FLIZ7NTU++KCsF4hQ+0tdIuWzbWcI/IS7FGpdoM+wnVX1cocHFVRfR3L
+::YAwzuBVtJxjWCl3EqQJgSA==
+::ZR4luwNxJguZRRnk
+::Yhs/ulQjdF+5
+::cxAkpRVqdFKZSTk=
+::cBs/ulQjdF+5
+::ZR41oxFsdFKZSDk=
+::eBoioBt6dFKZSDk=
+::cRo6pxp7LAbNWATEpCI=
+::egkzugNsPRvcWATEpCI=
+::dAsiuh18IRvcCxnZtBJQ
+::cRYluBh/LU+EWAnk
+::YxY4rhs+aU+IeA==
+::cxY6rQJ7JhzQF1fEqQJhZksaHErSXA==
+::ZQ05rAF9IBncCkqN+0xwdVsFAlTMbCXqZg==
+::ZQ05rAF9IAHYFVzEqQICLR1bXgOHOCuWB6AS6+D+/aq0qkIPQOEqbO8=
+::eg0/rx1wNQPfEVWB+kM9LVsJDDaHOmSoAbAYqMT6+uSEqkgPFNE3d53P2aGaQA==
+::fBEirQZwNQPfEVWB+kM9LVsJDDaHOmSoAbAYqMT6+uSEqkgPFNE3d53P2aGaQA==
+::cRolqwZ3JBvQF1fEqQIEIBJHDBeKM3muBaAIqPvv7viTsQ0JXOd/Sord1aaJJeRTxkTxe5Ul02g6
+::dhA7uBVwLU+EWG6LwwICLR1bXgOHOAs=
+::YQ03rBFzNR3SWATEw00HaClRSguQO26+Zg==
+::dhAmsQZ3MwfNWATEw00HaClRSguQO26+Zg==
+::ZQ0/vhVqMQ3MEVWAtB9wSA==
+::Zg8zqx1/OA3MEVWAtB9wSA==
+::dhA7pRFwIByZRRmx50dwPBNdX0SWMyupErQO/Kjv5+/HkEgbW/A4fYubybGcNuUBqknlYJgu3n9I2as=
+::Zh4grVQjdCuDJH6F+UcjFCxbe0SwOW21FLIZ7NTU++KCsF4hZuc5d53c37DODOEG5EbscIRj02Jf+A==
+::YB416Ek+ZG8=
+::
+::
+::978f952a14a936cc963da21a135fa983
+cd "Launcher"
+start Reforged_Launcher.exe

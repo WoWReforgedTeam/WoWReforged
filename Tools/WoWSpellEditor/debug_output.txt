@@ -1,0 +1,193 @@
+[18:48:01.1486|INFO|SpellEditor.MainWindow] ######################################################
+[18:48:01.1736|INFO|SpellEditor.MainWindow] Starting WoW Spell Editor - 2020. 06. 18. 18:48:01
+[18:48:01.1736|INFO|SpellEditor.MainWindow] ######################################################
+[18:49:34.5280|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\Achievement.txt with 62 fields.
+[18:49:34.5280|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\Achievement_Category.txt with 20 fields.
+[18:49:34.5280|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\Achievement_Criteria.txt with 31 fields.
+[18:49:34.5280|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\AnimationData.txt with 8 fields.
+[18:49:34.5390|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\AreaGroup.txt with 8 fields.
+[18:49:34.5390|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\AreaTable.txt with 36 fields.
+[18:49:34.5390|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\CharStartOutfit.txt with 77 fields.
+[18:49:34.5390|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\CreatureDisplayInfo.txt with 16 fields.
+[18:49:34.5390|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\CreatureDisplayInfoExtra.txt with 21 fields.
+[18:49:34.5390|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\CurrencyCategory.txt with 19 fields.
+[18:49:34.5540|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\CurrencyTypes.txt with 4 fields.
+[18:49:34.5540|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\DungeonEncounter.txt with 23 fields.
+[18:49:34.5540|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\GameObjectDisplayInfo.txt with 19 fields.
+[18:49:34.5540|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\Item.txt with 8 fields.
+[18:49:34.5540|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\ItemClass.txt with 20 fields.
+[18:49:34.5700|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\ItemExtendedCost.txt with 16 fields.
+[18:49:34.5700|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\ItemSubClass.txt with 44 fields.
+[18:49:34.5700|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\LFGDungeonGroup.txt with 21 fields.
+[18:49:34.5700|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\LFGDungeons.txt with 49 fields.
+[18:49:34.5700|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\Map.txt with 66 fields.
+[18:49:34.5850|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\ScreenEffect.txt with 10 fields.
+[18:49:34.5850|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SkillLine.txt with 56 fields.
+[18:49:34.5850|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SkillLineAbility.txt with 14 fields.
+[18:49:34.5850|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SkillRaceClassInfo.txt with 8 fields.
+[18:49:34.5850|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SoundEntries.txt with 30 fields.
+[18:49:34.6020|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\Spell.txt with 234 fields.
+[18:49:34.6020|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellCastTimes.txt with 4 fields.
+[18:49:34.6020|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellCategory.txt with 2 fields.
+[18:49:34.6020|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellDescriptionVariables.txt with 2 fields.
+[18:49:34.6020|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellDifficulty.txt with 5 fields.
+[18:49:34.6180|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellDispelType.txt with 21 fields.
+[18:49:34.6180|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellDuration.txt with 4 fields.
+[18:49:34.6180|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellFocusObject.txt with 18 fields.
+[18:49:34.6180|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellIcon.txt with 2 fields.
+[18:49:34.6310|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellMechanic.txt with 18 fields.
+[18:49:34.6310|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellRadius.txt with 4 fields.
+[18:49:34.6310|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellRange.txt with 40 fields.
+[18:49:34.6310|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellRuneCost.txt with 5 fields.
+[18:49:34.6310|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellVisual.txt with 32 fields.
+[18:49:34.6470|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellVisualEffectName.txt with 7 fields.
+[18:49:34.6470|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellVisualKit.txt with 38 fields.
+[18:49:34.6470|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellVisualKitAreaModel.txt with 3 fields.
+[18:49:34.6470|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellVisualKitModelAttach.txt with 10 fields.
+[18:49:34.6470|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellVisualPrecastTransitions.txt with 3 fields.
+[18:49:34.6630|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\TaxiPath.txt with 4 fields.
+[18:49:34.6630|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\TaxiPathNode.txt with 11 fields.
+[18:49:34.6630|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\TotemCategory.txt with 20 fields.
+[18:49:34.6630|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\WorldStateUI.txt with 63 fields.
+[18:49:34.6630|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\ZoneMusic.txt with 8 fields.
+[18:49:34.6800|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded 49 bindings.
+[18:49:35.8753|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded AreaTable.dbc into memory in 9ms. Records: 7ms, strings: 2ms
+[18:49:35.8923|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellCategory.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:35.8973|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellDispelType.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:35.8973|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellMechanic.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:35.8973|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellFocusObject.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:35.9123|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellCastTimes.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:35.9123|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellDuration.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:35.9123|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellRange.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:35.9293|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellRadius.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:35.9293|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded ItemClass.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:35.9293|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded ItemSubClass.dbc into memory in 1ms. Records: 0ms, strings: 1ms
+[18:49:35.9463|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded AnimationData.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:35.9873|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded TotemCategory.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:35.9923|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellRuneCost.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:35.9923|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellDescriptionVariables.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:35.9923|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded AreaGroup.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:36.0193|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellDifficulty.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[18:49:36.0313|DEBUG|SpellEditor.Sources.DBC.SpellDifficulty] Loading SpellDifficulty tooltips lazily
+[18:49:36.0413|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellIcon.dbc into memory in 11ms. Records: 0ms, strings: 11ms
+[18:49:37.4996|INFO|SpellEditor.MainWindow] Loaded spell selection list contents in 1ms
+[19:18:14.4669|INFO|SpellEditor.App] ######################################################
+[19:18:14.4669|INFO|SpellEditor.App] Stopped WoW Spell Editor - 2020. 06. 18. 19:18:14
+[19:18:14.4779|INFO|SpellEditor.App] ######################################################
+[19:22:47.6626|INFO|SpellEditor.MainWindow] ######################################################
+[19:22:47.6896|INFO|SpellEditor.MainWindow] Starting WoW Spell Editor - 2020. 06. 18. 19:22:47
+[19:22:47.6896|INFO|SpellEditor.MainWindow] ######################################################
+[19:22:54.2270|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\Achievement.txt with 62 fields.
+[19:22:54.2270|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\Achievement_Category.txt with 20 fields.
+[19:22:54.2270|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\Achievement_Criteria.txt with 31 fields.
+[19:22:54.2400|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\AnimationData.txt with 8 fields.
+[19:22:54.2400|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\AreaGroup.txt with 8 fields.
+[19:22:54.2400|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\AreaTable.txt with 36 fields.
+[19:22:54.2400|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\CharStartOutfit.txt with 77 fields.
+[19:22:54.2400|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\CreatureDisplayInfo.txt with 16 fields.
+[19:22:54.2590|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\CreatureDisplayInfoExtra.txt with 21 fields.
+[19:22:54.2590|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\CurrencyCategory.txt with 19 fields.
+[19:22:54.2590|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\CurrencyTypes.txt with 4 fields.
+[19:22:54.2590|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\DungeonEncounter.txt with 23 fields.
+[19:22:54.2730|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\GameObjectDisplayInfo.txt with 19 fields.
+[19:22:54.2730|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\Item.txt with 8 fields.
+[19:22:54.2730|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\ItemClass.txt with 20 fields.
+[19:22:54.2730|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\ItemExtendedCost.txt with 16 fields.
+[19:22:54.2870|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\ItemSubClass.txt with 44 fields.
+[19:22:54.2870|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\LFGDungeonGroup.txt with 21 fields.
+[19:22:54.2870|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\LFGDungeons.txt with 49 fields.
+[19:22:54.2870|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\Map.txt with 66 fields.
+[19:22:54.2870|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\ScreenEffect.txt with 10 fields.
+[19:22:54.3050|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SkillLine.txt with 56 fields.
+[19:22:54.3050|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SkillLineAbility.txt with 14 fields.
+[19:22:54.3050|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SkillRaceClassInfo.txt with 8 fields.
+[19:22:54.3050|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SoundEntries.txt with 30 fields.
+[19:22:54.3201|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\Spell.txt with 234 fields.
+[19:22:54.3201|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellCastTimes.txt with 4 fields.
+[19:22:54.3201|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellCategory.txt with 2 fields.
+[19:22:54.3201|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellDescriptionVariables.txt with 2 fields.
+[19:22:54.3361|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellDifficulty.txt with 5 fields.
+[19:22:54.3361|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellDispelType.txt with 21 fields.
+[19:22:54.3361|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellDuration.txt with 4 fields.
+[19:22:54.3361|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellFocusObject.txt with 18 fields.
+[19:22:54.3501|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellIcon.txt with 2 fields.
+[19:22:54.3501|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellMechanic.txt with 18 fields.
+[19:22:54.3501|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellRadius.txt with 4 fields.
+[19:22:54.3501|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellRange.txt with 40 fields.
+[19:22:54.3651|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellRuneCost.txt with 5 fields.
+[19:22:54.3651|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellVisual.txt with 32 fields.
+[19:22:54.3651|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellVisualEffectName.txt with 7 fields.
+[19:22:54.3651|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellVisualKit.txt with 38 fields.
+[19:22:54.3651|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellVisualKitAreaModel.txt with 3 fields.
+[19:22:54.3831|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellVisualKitModelAttach.txt with 10 fields.
+[19:22:54.3831|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\SpellVisualPrecastTransitions.txt with 3 fields.
+[19:22:54.3831|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\TaxiPath.txt with 4 fields.
+[19:22:54.3831|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\TaxiPathNode.txt with 11 fields.
+[19:22:54.3981|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\TotemCategory.txt with 20 fields.
+[19:22:54.3981|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\WorldStateUI.txt with 63 fields.
+[19:22:54.3981|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_335_wotlk\ZoneMusic.txt with 8 fields.
+[19:22:54.3981|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded 49 bindings.
+[19:22:54.4741|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded AreaTable.dbc into memory in 11ms. Records: 6ms, strings: 5ms
+[19:22:54.4891|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellCategory.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[19:22:54.4941|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellDispelType.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[19:22:54.4941|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellMechanic.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[19:22:54.4941|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellFocusObject.dbc into memory in 1ms. Records: 0ms, strings: 1ms
+[19:22:54.5111|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellCastTimes.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[19:22:54.5111|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellDuration.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[19:22:54.5241|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellRange.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[19:23:30.8731|INFO|SpellEditor.App] ######################################################
+[19:23:30.8731|INFO|SpellEditor.App] Stopped WoW Spell Editor - 2020. 06. 18. 19:23:30
+[19:23:30.8831|INFO|SpellEditor.App] ######################################################
+[19:32:02.9780|INFO|SpellEditor.MainWindow] ######################################################
+[19:32:03.0050|INFO|SpellEditor.MainWindow] Starting WoW Spell Editor - 2020. 06. 18. 19:32:03
+[19:32:03.0090|INFO|SpellEditor.MainWindow] ######################################################
+[19:32:06.4317|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\AnimationData.txt with 7 fields.
+[19:32:06.4317|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\AreaGroup.txt with 8 fields.
+[19:32:06.4317|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\AreaTable.txt with 25 fields.
+[19:32:06.4447|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\ItemClass.txt with 12 fields.
+[19:32:06.4447|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\ItemSubClass.txt with 28 fields.
+[19:32:06.4447|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SkillRaceClassInfo.txt with 8 fields.
+[19:32:06.4447|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\Spell.txt with 173 fields.
+[19:32:06.4597|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellCastTimes.txt with 4 fields.
+[19:32:06.4597|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellCategory.txt with 2 fields.
+[19:32:06.4597|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellDescriptionVariables.txt with 2 fields.
+[19:32:06.4597|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellDifficulty.txt with 5 fields.
+[19:32:06.4747|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellDispelType.txt with 12 fields.
+[19:32:06.4747|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellDuration.txt with 4 fields.
+[19:32:06.4747|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellFocusObject.txt with 10 fields.
+[19:32:06.4747|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellIcon.txt with 2 fields.
+[19:32:06.4747|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellMechanic.txt with 10 fields.
+[19:32:06.4937|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellRadius.txt with 4 fields.
+[19:32:06.4937|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellRange.txt with 22 fields.
+[19:32:06.4937|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellRuneCost.txt with 5 fields.
+[19:32:06.4937|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellVisual.txt with 16 fields.
+[19:32:06.5087|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellVisualEffectName.txt with 5 fields.
+[19:32:06.5087|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellVisualKit.txt with 35 fields.
+[19:32:06.5087|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\SpellVisualPrecastTransitions.txt with 3 fields.
+[19:32:06.5237|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded binding D:\Programs\WoWSpellEditor\Bindings_112_vanilla\TotemCategory.txt with 12 fields.
+[19:32:06.5237|INFO|SpellEditor.Sources.Binding.BindingManager] Loaded 24 bindings.
+[19:32:06.5627|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded AreaTable.dbc into memory in 9ms. Records: 8ms, strings: 1ms
+[19:32:06.5747|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellCategory.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[19:32:06.5747|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellDispelType.dbc into memory in 2ms. Records: 2ms, strings: 0ms
+[19:32:06.5877|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellMechanic.dbc into memory in 2ms. Records: 2ms, strings: 0ms
+[19:32:06.5877|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellFocusObject.dbc into memory in 3ms. Records: 3ms, strings: 0ms
+[19:32:06.6007|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellCastTimes.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[19:32:06.6007|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellDuration.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[19:32:06.6007|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellRange.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[19:32:06.6178|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellRadius.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[19:32:06.6178|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded ItemClass.dbc into memory in 2ms. Records: 2ms, strings: 0ms
+[19:32:06.6308|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded ItemSubClass.dbc into memory in 2ms. Records: 2ms, strings: 0ms
+[19:32:06.6308|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded AnimationData.dbc into memory in 0ms. Records: 0ms, strings: 0ms
+[19:32:06.6548|INFO|SpellEditor.Sources.DBC.AbstractDBC] Loaded SpellIcon.dbc into memory in 5ms. Records: 3ms, strings: 2ms
+[19:32:08.1161|INFO|SpellEditor.MainWindow] Loaded spell selection list contents in 2ms
+[19:43:40.2546|INFO|SpellEditor.MainWindow] ERROR: System.IndexOutOfRangeException: A(z) 0 pozíciónál nincs sor.
+   a következõ helyen: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   a következõ helyen: SpellEditor.MainWindow.<Button_Click>d__50.MoveNext()
+--- Verem vége nyomkövetés a kivétel elõzõ elõfordulási helyétõl kezdve ---
+   a következõ helyen: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   a következõ helyen: System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   a következõ helyen: System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+
+[19:45:59.9578|INFO|SpellEditor.App] ######################################################
+[19:45:59.9628|INFO|SpellEditor.App] Stopped WoW Spell Editor - 2020. 06. 18. 19:45:59
+[19:45:59.9628|INFO|SpellEditor.App] ######################################################

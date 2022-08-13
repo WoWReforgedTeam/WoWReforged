@@ -1,0 +1,6 @@
+D:\Projects\Visual Studio Projects\Reforged Launcher Restarter\Reforged Launcher Restarter\bin\Debug\Reforged Launcher Restarter.exe.config
+D:\Projects\Visual Studio Projects\Reforged Launcher Restarter\Reforged Launcher Restarter\bin\Debug\Reforged Launcher Restarter.exe
+D:\Projects\Visual Studio Projects\Reforged Launcher Restarter\Reforged Launcher Restarter\bin\Debug\Reforged Launcher Restarter.pdb
+D:\Projects\Visual Studio Projects\Reforged Launcher Restarter\Reforged Launcher Restarter\obj\Debug\Reforged Launcher Restarter.csproj.CoreCompileInputs.cache
+D:\Projects\Visual Studio Projects\Reforged Launcher Restarter\Reforged Launcher Restarter\obj\Debug\Reforged Launcher Restarter.exe
+D:\Projects\Visual Studio Projects\Reforged Launcher Restarter\Reforged Launcher Restarter\obj\Debug\Reforged Launcher Restarter.pdb

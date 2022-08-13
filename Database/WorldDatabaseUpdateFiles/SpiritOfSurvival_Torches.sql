@@ -1,0 +1,62 @@
+-- Torches, for the very dark nights patch
+
+-- Updating Dim Torch's buy and sell price
+UPDATE `reforged_mangos`.`item_template` SET `buy_price` = '200', `sell_price` = '100' WHERE (`entry` = '6182') and (`patch` = '0');
+
+-- Adding Dim Torch for General Goods vendors
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('151', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('227', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('491', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('734', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('791', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('1149', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('1250', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('1285', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('1448', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('1452', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('1682', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('1685', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('1691', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('2084', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('2140', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('2401', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('2803', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('2134', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('2806', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('2808', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('2820', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('2908', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('3076', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('3164', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('3186', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('3313', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('3350', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('3481', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('3498', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('3541', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('3608', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('3962', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('4082', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('4084', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('4170', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('4182', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('4184', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('4241', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('4555', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('4876', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('4896', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('5101', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('7942', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('8139', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('8362', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('11038', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('11555', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('12021', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('12027', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('12246', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('12959', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('12960', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('14624', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('15174', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('5134', '6182', '0', '0', '0');
+INSERT INTO `reforged_mangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `itemflags`) VALUES ('3625', '6182', '0', '0', '0');

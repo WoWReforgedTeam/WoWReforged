@@ -1,0 +1,117 @@
+0.48d Changes:
+-=-=-=-=-=-=-=-=-
+	* Added more error logging.
+	* Fixed a character / texture related crash that presented itself in 0.48c.
+	* Fixed the last of the memory leaks (previously, roughly 100 bytes was leaking per weapon/shoulder/helm).
+	* Fixed a couple of Character related assertion errors.
+	* Fixed a few OpenGL related errors.
+	
+
+0.48c Changes:
+-=-=-=-=-=-=-=-=-
+	* Added more error checking and logging.
+	* Fixed a texture problem for Ashbringer02.m2 (Thunderfury), and any other model that uses "Type 3" textures.
+	* Fixed a problem when making animated gifs when the Animation Speed has been lowered to <1.0
+	* Fixed a problem with certain particles making models disappear.
+	* Fixed (for the most part) a problem with vertex buffers being empty.
+	* Fixed another small memory leak relating to textures.
+
+
+0.48b Changes:
+-=-=-=-=-=-=-=-=-
+	* Added Category filtering to the NPC List.
+	* Added more debug info to the log.txt file.
+	* Added a toggle for Environmental Mapping to disable it (effect takes effect when next model is loaded).
+	* Added the ability to export animations to AVI movies (currently limited to 512x512 resolution).
+	* Added scaling to model attachments exported to MS3D.
+	* Added hard-coded fix for Argent Avenger and similar particles.
+	* Added an error-check when models are loaded, should prevent a particularly annoying crash.
+	* Added some NPC's from Naxx, also added NPC's contributed by Remmiz.
+	* Enabled screenshots to be saved of WMO's.
+	* Moved various render toggles to the "Options" menu where they should be.
+	* Improved the way the "Cryptstalker Helm" is rendered.
+	* Improved the particle system significantly, contributed by Cryect.
+	* Fixed the problem with environmental mapping on creatures that should not of had it, contributed by Cryect.
+	* Fixed an error with NPC's,  they should now look as they do in-game.
+	* Fixed the problem with gif animations not looping indefinately.
+		
+0.48 Changes:
+-=-=-=-=-=-=-=-=-
+	* Added command-line options. 
+		"-m <model>" to load a model, ie.  "wowmodelviewer.exe -m creature\pig\pig.m2". 
+		"-mo <model>" to load a model and automatically output a screenshot. - Requires a video card that supports FBO / PBO.
+	* Added Model (mesh) exporting to *.OBJ, *.LWO (5.5 format), and *.MS3D.
+	* Added missing tabards.
+	* Added a GUI to attach and embed 'arrows' into character models.
+	* Added text colour-coding to the File Tree representing where the file was loaded from.
+		- Black = Original, Blue = Patch, Red = Patch-2, Green = Test Data.
+	* Added support for PixelBuffers and FrameBufferObjects (Must also be supported by Graphics Card and Drivers)
+		- Used in conjunction with saving screenshots and making gif animations.
+		- This new addition also completely fixes the problems with the Alpha for PNG saved images for cards that support 'Frame Buffer Objects' (http://www.delphi3d.net/hardware/extsupport.php?extension=GL_EXT_framebuffer_object).
+	* Added extra error checking when using "NPC Skins",  so that when scrolling through the skins it will limit the scope to whats actually available.
+		- This fixes the "Assertion Error: Abort Retry Ignore" screen from poping up and the hair/model turning white.
+	* Added Toggle to enable/disable hardware acceleration, and removed the -nohw command line.
+	* Added Saving and Loading of your interface layout, this is done automatically on startup and exit.
+		- Also added "Reset Layout" under the file menu to reset it back to default.
+	* Added a "View NPC" functionality similar to item selection, to replace the impossible BakedNPCTextures method.
+	* Added support for Quivers.
+	* Added numerical info the character details for identifying a style.
+	* Added a randomise function, to randomise the character look without reloading the model.
+	* Added an option to save screenshots at custom sizes.
+	* Can now disable (some) hardware acceleration by unchecking "Use HW Acceleration" under the View Menu.
+	* Changed it so "Show Feet" is automatically toggled on when loading a tauren or troll.
+	* Changed "Load equipment", so that it no longer clears the current equipment.
+	* Changed Save/Load Equipment filepath so its now saved in session.
+	* Changed the Animation list so it is now sorted in alphabetical order.
+	* Enabled anti-aliasing (if supported, and not already enabled).
+		* Added a toggle for anti-aliasing, requires a program restart to take effect.
+	* Fixed 'Show Mask'.
+	* Fixed the textures on the individual items (again).
+	* Fixed certain additions to various equipment, such as the 'sash' thats part of the Devout Shoulders.
+	* Fixed Sorcerers Robe on female chars.
+		- 'Unisex Texture' versions are used in preference over gender-specific.
+	* Fixed the order in which equipment is rendered (ie. Robed Sets).  Hopefully its now identical to how it looks in-game(?)
+	* Fixed Guild Tabard designs so they are now saved with the rest of the equipment when 'Save Char' is done.
+	* Fixed Lights so they (should) now update correctly.
+	* Fixed a 'clipping' problem with various translucent weapons (ie. Phantom Blade) when held in right hand and left handed weapons.
+	* Fixed a bug which was causing the program to freeze when loading Mechstrider mounts.
+	* Fixed a few memory leaks.
+	* Fixed 'Load Sets' so when a set is loaded it now also clears the hands aswell.
+	* Fixed 'Load Equipment' so that when an equipment file is loaded, it will only load the equipment - not clear any.
+	* Fixed a problem with rendering models, where the 'render state' was preserved from the previous model.
+	* Improved the display of the various Cloth Robe/Glove combo's.
+	* Improved PBO support.
+	* Improved the program's startup, should be a bit more stable.
+	* Made adjustments to Particles (for better or worse, you be the judge).
+	* Minor fix to Patch Archive file names, for case senstivity.
+	* Switched over the docking control to wxAUI, easier to use, elegance, supported.
+	
+To Do:
+----
++ Fix "Wing" particles on the Faith set.
+
+========================
+WoW Model Viewer - TO DO
+~~~~~~~~~~~~~~~~~~~~~~~~
+1. Other requested features
+	- Animation Scripting.
+	- Carry equipment over from character to character.
+
+2. (distant) future improvements:
+	- Add key bindings to animations.
+	- Animate particles.
+	- Add the ability to add more than one model by Loading a model.
+	- Colour code the item list based on quality, common, rare, epic, etc.
+	- Texture import / exporting.
+	- Add support for "casting spells".
+
+4. Misc:
+	- Improve Cross-Platform compatbility for Mac OS X.
+	- Enable Unicode support (for Japanese / Korean / Chinese compatability).
+		* Enable the use of MSLU to suport Win98 which uses ANSI.
+		
+5. Very distant future improvements:
+	- Have sounds, spells, effects, etc react to Animations.
+		
+6. Investigate:
+	- Hair/Head textures are black for certain Graphic cards and drivers.

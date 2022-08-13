@@ -1,0 +1,331 @@
+/**
+ * This stylesheet contains both general
+ * and certain module specific selectors.
+ * You should edit the colors to suit your
+ * theme. You can also override their module
+ * provided default styles like font-size,
+ * margin and padding.
+ *
+ * If you need to look up the default styles
+ * of a selector, please refer to:
+ * /application/css/default.css
+ *
+ * You may use !important to force-override
+ * certain styles.
+ *
+ */
+
+/* ========= News ========= */
+.news_bottom {
+	padding:5px;
+	border-top:1px solid #76b3476e;
+	text-align: center;
+}
+
+.news_comments {
+	float:right;
+}
+
+#news_pagination a, #messages_pagination a {
+	margin:0px;
+	display:block;
+}
+
+/* ========= Comments and messages ========= */
+.comments_area {
+	margin-top:0px !important;
+}
+
+.staff_comment .comment_author {
+	color:#00B4FF;
+}
+
+.comment, .message_box {
+	width:345px;
+	border:1px solid #777 !important;
+	background-color:#333 !important;
+	color:inherit !important;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+}
+
+.comment_author:hover, .message_box_author:hover {
+	color:#fff;
+}
+
+.comment_date, .message_box_date, .characters_remaining  {
+	color:#666;
+}
+
+/* ========= Poll ========= */
+#poll_answers .poll_answer {
+	margin-left:10px;
+}
+
+/* ========= Form fields ========= */
+textarea {
+	padding:8px;
+	color:#fff;
+	font-family:MuseoSans, Arial, Helvetica, Sans-serif;
+	font-size:12px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+
+select {
+	font-family:MuseoSans, Arial, Helvetica, Sans-serif;
+	font-size:12px;
+	width:80%;
+	padding:8px;
+	color: #536a81;
+	border-color: #293a4a;
+	background-color: #293a4a;
+	border: 2px solid;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	margin:5px;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"]
+{
+	font-family:MuseoSans, Arial, Helvetica, Sans-serif;
+	font-size:12px;
+	width:80%;
+	padding:8px;
+	color: #536a81;
+	border-color: #293a4a;
+	background-color: #293a4a;
+	border: 2px solid;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	margin:5px;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	border-color: #1abc9c;
+	border: 2px solid;
+	color:#1abc9c;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+.page_form input[type="submit"] {
+	padding-left:20px;
+	padding-right:20px;
+	margin-top:20px;
+}
+
+.nice_button, input[type="submit"] {
+	height:18px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	text-align:center;
+	padding:8px;
+	font-size:12px;
+	margin-top:10px;
+	border-bottom: 3px solid #76b347;
+	color: white;
+	background-color: #89ff88;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+.nice_button:hover, .nice_active, input[type="submit"]:hover {
+	background-position:0px 37px;
+	border-bottom: 3px solid #76b347;
+	color: white;
+	background-color: #63a62f;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+.nice_button:active, input[type="submit"]:active {
+	box-shadow:0px 0px 5px rgba(0,0,0,0.5) inset;
+	-webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.5) inset;
+	-moz-box-shadow:0px 0px 5px rgba(0,0,0,0.5) inset;
+	-ms-box-shadow:0px 0px 5px rgba(0,0,0,0.5) inset;
+	-o-box-shadow:0px 0px 5px rgba(0,0,0,0.5) inset;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+/* ========= Headline bars (used on UCP, store, online players) ========= */
+.online_realm_button, #ucp_characters h1 {
+	height:18px;
+	border-bottom:4px solid #76b347;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-ms-border-radius:4px;
+	-o-border-radius:4px;
+	-webkit-border-radius:4px;
+	text-align:center;
+	padding:8px;
+	font-size:12px;
+	color:#548c29;
+	margin-top:10px;
+	background-color:#89ff88;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+.online_realm_button:hover {
+	background-position:0px 37px;
+	color:#548c29;
+	background-color:#76b347;
+	border-bottom: 4px solid #89ff88;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+.online_realm_button:active {
+	box-shadow:0px 0px 5px rgba(0,0,0,0.5) inset;
+	-webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.5) inset;
+	-moz-box-shadow:0px 0px 5px rgba(0,0,0,0.5) inset;
+	-ms-box-shadow:0px 0px 5px rgba(0,0,0,0.5) inset;
+	-o-box-shadow:0px 0px 5px rgba(0,0,0,0.5) inset;
+}
+
+/* ========= Store filter options ========= */
+#store form .filter_field {
+	padding-left:10px !important;
+	padding-right:10px !important;
+}
+
+#store form {
+	margin-bottom:20px;
+}
+
+/* ========= FusionEditor field ========= */
+.fusioneditor .fusioneditor_tools {
+	color:#fff;
+	background-color:#444;
+	border:1px solid #888;
+}
+
+.fusioneditor .fusioneditor_tools a:hover {
+	background-color:#333;
+	border:1px solid #888;
+	box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+}
+
+.fusioneditor .fusioneditor_tools a:active {
+	border:1px solid #666;
+}
+
+.fusioneditor .fusioneditor_field {
+	color:#fff;
+	background-color:#333;
+	border:1px solid #888;
+	border-top:none !important;
+}
+
+.fusioneditor .fusioneditor_field:hover {
+	border:1px solid #888;
+}
+
+.fusioneditor .fusioneditor_field b {
+	font-weight:bold;
+}
+
+.fusioneditor .fusioneditor_toolbox {
+	border-top:1px solid #888 !important;
+}
+
+.fusioneditor .fusioneditor_size {
+	color:#666;
+}
+
+.fusioneditor .fusioneditor_size:hover {
+	color:#fff;
+}
+
+.fusioneditor .fusioneditor_color:hover {
+	border:1px solid rgba(0,0,0,0) !important;
+}
+
+.fusioneditor .fusioneditor_color:active {
+	border:1px solid rgba(0,0,0,0) !important;
+}
+
+/* ========= Messages auto-complete ========= */
+#pm_username_autocomplete {
+	background-color:#333 !important;
+	border:1px solid #888 !important;
+}
+
+#pm_username_autocomplete a {
+	border-bottom:1px solid #888 !important;
+}
+
+/* ========= UCP ========= */
+
+#ucp_top {
+	margin-bottom:30px;
+	text-align: center;
+}
+
+/* ========= Table style (used on vote panel, donate panel, online players etc) ========= */
+.nice_table tr:first-child td {
+	border-bottom:1px solid #888;
+	color:#fff;
+	font-weight:normal;
+}
+
+.nice_table tr:first-child td a {
+	color:#fff;
+}
+
+.nice_table td {
+	vertical-align: middle;
+}
+
+/* ========= Shoutbox ========= */
+#shoutbox form textarea {
+	height:auto;
+}
+
+/* ========= Realm online % bar ========= */
+.realm_bar {
+	height:5px;
+	background-color:#1e1e1e;
+}
+
+.realm_bar_fill {
+	height:5px;
+	background-color:#89ff88;
+}
+
+/* ========= Armory ========= */
+#armory_top {
+	background-color:transparent;
+	border:1px solid transparent;
+}
+
+#armory_bars div:last-child {
+	margin-bottom:0px;
+}

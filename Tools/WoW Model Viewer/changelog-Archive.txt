@@ -1,0 +1,242 @@
+Changes from 0.3 to 0.44
+--------------
+* Now able to select guns, crossbows, wands, etc.
+* Now able to change facial features and hair colours.
+* Now able to zoom using the mouse scroller.
+* Belts now correctly display over the top of robes.
+--
+* Fixed a "Windows Application Error" due to people with modified textures.mpq files.
+* Added support for Tabards.
+--
+* Added basic support for non-VBO video cards.
+* Added video card capability checks.
+* Added customising of "Guild Tabards".
+* Re-arranged the Char Control and File menu.
+--
+* Improved performance for non-VBO video cards.
+* Fixed a couple of issues with the particle system. -Ufo_z
+* Improved animation speed control. -Ufo_z
+* Added support for World Map Object models, can now view them. -Ufo_z
+* Greatly improved Item Selection and filtering. -Ufo_z
+* Added support for software compression of textures, not perfect nor finished but gives an interesting effect and doesn't crash people with older video cards.  -Ufoz
+* Shoulder and weapon scaling should now be perfect! - Ufo_z
+--
+* Characters can now be displayed on mounts! -Ufo_z
+--
+* Added support for saving screenshots to TGA and BMP.
+* Added basic support for sheathing weapons.
+* Added the ability to save and load the "Character" style.
+* Added item sub-classing. -Ufo_z
+* Added a basic tutorial for adding items to the items.csv list.
+* Can now load Bitmap (*.BMP) background images. Background image sizes must be
+	32x32, 64x64,128x128, 256x256, 512x512 (depending on video card, 256x256 may be the highest for you).
+* Improved mount scaling (not perfect but looks better than before).
+* In reply to the new patch 0.8.0 being available. Will now load the Test patch.mpq first if one is found.
+* Model viewer Will now also load patch-2.mpq.
+* Changed Hair / Facial hair displaying back to a manual toggle.  (Anyone got blizzard devs email?  This is getting frustrating!)
+* Fixed the display of Kilts and boots.  (Some how this change didn't make the last update)
+* Fixed Offhand items - should now be available to view under "Miscellaneous" of the new sub-types.
+* Fixed -some- creature models so that their skins are displayed due to Blizzard not keeping to their own standard in WoW version 0.8.0.
+* Fixed a bug with Saving and Loading Equipment files where the facial hair/feature colours were not saved.
+* Fixed guild tabards, all 170 tabard emblems can now be accessed.
+* Fixed particles (of lack thereof) on items.
+--
+* Added more control of the ViewPort which can be accessed via the menu under View->View Control.
+	- Also able to temporarily 'save' and 'load' the viewport settings.
+* Added another means to mount characters via the menu under Character->Mount Character.
+* Added support to change Light positioning and colour (currently very primitive support).
+* Added menu shortcuts keys. ie. Save equipment is bound to F5. Load equipment is bound to F6. etc.
+* Added keyboard control to move (forwards and back) and rotate (along Y axis) the model.
+	- Forwards/backwards movement speed is relative to both animation movement speed (standing 0, walking 2.5, running 7, etc) and the animation speed slider.
+* Added keyboard control to set animation speed from 10-100% using the numeric 0-9 keys.
+* Added basic support for viewing (Baked) NPC skins.
+* Added locale support, now just need a translator. 
+* Added a toggle for turning off particle effects.
+* Fixed a couple of errors in the Ridables.csv list (due to 1.8).
+* Fixed Belt display.
+* Fixed the display of Lich and Kel'Thuzard models.
+* Improved sphere particle system (noticable in the 'poison clouds' of creatures and 'Acid Breath' types of spells and such).
+* Improved the Background display method so that it acts as a background.
+* Changed the effect of Alt+Zooming, it will now move the model back and forth based on the models heading along the X & Z axis.
+* Changed Ribbon Particles to be a lot shorter, so they aren't so messy until I get time to work it out correctly.
+* Changed compiler from VC++ 7.0 to VC++ 7.1 (hopefully no side-effects).
+* Corrected the item tutorial in regards to the 5th value, should actually be the item slot number.
+* Updated Item List from Allakhazam as of 15/10/05.
+--
+* Tweaked the display of Particles and Model skeletal bones.
+* Language to use is now selectable on first-run (currently only available in English and French).
+* Added some Error and Debug handling (no more annoying default windows error report window).
+* Added selectable animation frames.
+* Added French translations by Culhag.
+* Fixed text display issues in relation to locale differences (non-US English World of Warcraft Client).
+--
+
+Changes from 0.45 to 0.46b:
+--------------
+* Added a toggle to view alpha mask (does not currently work with particles).
+* Added mouse control toggle over lighting position.
+* Added a 'Reset' button to the View Control.
+* Added a Language Menu to change language settings. (Require reloading the application for changes to take effect).
+* Added an 'About' screen for info on the program and contributors.
+* Added an option to change the path that the data is loaded from, under Options -> Change Data Path. (Also requires reloading the app for changes to take effect).
+* Changed to a config.ini to store various settings.
+* Fixed a number of crash related bugs.
+* Fixed a number of creature model skins, including:
+	- Quiraj models
+	- FelBat
+	- MountedDemonKnight
+* Fixed guild tabards so the designs are now saved into equipment files.
+* Fixed an error with loading equipment files onto a different race / gender than the file was saved with.
+* Improved support for software DXT3 texture decompression using DDS Lib.
+* Modified the animation control.  Now able to have an animation 'list' that it will play through (currently only support upto 4 animations and loops upto 9 per animation for testing).
+	- This function will act as normal so the average user shouldn't notice a difference.  However extra functionality now exists if people wish to take advantage of it.
+	- To use, Un-check "Auto Animate",  Then press the "Clear" Button.  Select the animation and Loop count then press Add, continue until you've completed your list (of upto 4 animations).
+* Removed SSE2 CPU instructions from compiler to support a wider variety of CPU's.
+--
+* Added a screenshot counter which will be used in the default filename when saving screenshots.
+* Added an animated gif export feature.
+* Added an option to "set canvas size" 640x480, 800x600, etc.
+* Added session variable saving for a number of settings (will gradually add more).
+* Added toggles for 'UsePatch' and 'UseTestPatch' accessible through the Option menu bar.
+* Changed over from wxDockIt to wxIFM and configured wxWidgets to use STL, this should result in overall improved stability and performance.
+* Changed the default setting of UseTestPatch to "off".
+* Cleaned up the program for use and compatability with 1.9.0 (test) patch.  (older versions will still work OK with 1.9)
+* Fixed a crash caused by loading a WMO after loading a normal M2 model.
+* Fixed a crash on start-up if the *.MPQ files were not found, now allows users to select the correct data path via Options->Change Data Path.
+* Fixed a graphic and animation problem with mounts.
+* Fixed a inconvenience in regards to animation loop selection when "Auto Animate" was checked.
+* Fixed a minor problem with the saved test data path, if the path was invalid at the time of first-run.
+* Fixed a minor 'graphic glitch' with the animation.
+* Fixed WMO model animation.
+* Removed memory leaks on shutdown.
+* Removed SSE cpu instructions for compatability with older CPU's.
+--
+* "Select Locale" now saves the selected language.
+* Transaprent Gifs now display correctly.
+* Character Control panel now displays when loading a character file.
+* Added support for loading files locally if they exist, can be toggled on-and-off under Options->Use Local Files.
+* Added support for more image formats (JPG and PNG including Alpha layer - alpha layer needs tweaking) to save screenshots as.
+* Added support for more image formats (JPG and TGA) to load as Background textures.
+	- If the image being loaded is not a power of 2, it is automatically resised to the default size 256x256.
+* Can now zoom in and out by pressing the + and - keys (on the numpad).
+* Fixed a problem with available mounts not showing due to case-sensitivity.
+* Fixed a crash when trying to save a screenshot or animation when the canvas was a "irregular" size.
+* Fixed the "corruption" when saving a screenshot or animated gif for certain video cards/drivers.
+* Fixed the Character Menu bar not being accessible when a character file is loaded.
+* Improved file filter slightly to help remove duplicate file listings.
+* Improved particle animation (was previously static) when going through the animation frame-by-frame via the ">>" button. 
+	- Particles are still static when changing frames via the slider control.
+	- Currently only displays correctly when moving forward through the frames, not backwards.
+* Number of frames and frame delay automatically "suggested" based on the length of the animation.
+* Tweaked the frame delay of the Gif Exporter.
+	- Also found the reason why it doesn't seem to be as smooth as it should.  Window default image viewer and Internet Explorer are limited to displaying only 10 animated gif Frames per second.
+* The source code should now be compatible on Linux (for the most part), compiled 'OK' on RedHat 9 with gcc for GTK+.
+* The 6th value in the Item List (items.csv) now controls where an item is sheathed to.
+	- This change corrected the sheathing location of the Skullforge Reaver and Thunderfury.
+	- 32 left hip, 33 right hip, 26 upper right back, 27 upper left back, 28 center back, 30 (upside down) upper left back.
+* When "Use Test Patch" is enabled on loading, WoW Model Viewer will use "testitems.csv" (if it exists) for the item list instead of items.csv.
+	- This is so you can have 2 item lists 1 for release, and 1 for test without having to continuesly rename the files.
+--
+* Fixed a bug in the 'suggested frames' if the animation length was under 1000.
+* Fixed (another) bug with creature models not being available in the mount list.
+* Fixed a display error where certain shirts overwrote the graphical look of gloves.
+* GifExporter now auto-hides before it starts capturing.
+* Fixed a problem with background images that were automatically resized still not being compatible as a texture. (I hope I fixed it anyhow).
+--
+* Set the default of "Use Patch" back to being 'true', as it should have been.
+* Fixed the "Crash Debug Report" from not being used.
+* Fixed a number of crashes related to static M2 models.
+* Fixed a crash caused by loading invalid models (OrgeMage and OgreWarlord are only 1 byte long?).
+* Enabled the use of "NPC" character skins where available. Options -> Use npc character skins
+* Fixed StormCrow skin, added "Panda" skin to Furbolg, added missing MurlocBaby skins.
+* Added more 'debug' logging to log.txt.
+
+Changes from 0.46b to 0.47:
+--------------
+	* Added Deutsch translations thanks to Die_Backe!
+	* Added "Weapons Enchants" which can now be applied to weapons.
+	* Added support for loading Language Packs.
+	* Added support for loading Sky Boxes.
+	* Added missing FelBeast and Gryphon skins.
+	* Added support for equiping creatures with weapons.
+		- Can NOT currently enchant creature equipped weapons.
+	* Background images are now saved and loaded between sessions.
+	* Improved the "Key Input" handling for the Canvas.
+	* Fixed not being able to load item Sets or Start equipment just after loading a character file.
+	* Fixed a bug that prevented the "View Panel" from displaying.
+	* Modified the animation handler to potentially support more than 1 object in the distant future.
+		- This change was needed for skyboxes to be able to animate independently.
+	* "Model Camera" is now disabled if the model does not have any embedded camera data with the model.
+		- All creature models have a "close up" camera, (potentially for the model portraits for the interface - WhoooMan)
+	* Added 'Legal Notice' to the About Frame.	
+	* Modified "BakedNPCs" so they can be interacted in a similar way to Character models.
+		- Some things like Hair / Facial features / Tabards, etc can not be changed.
+		- BakedNPC 'clothes' for the most part, are part of their "skin".
+	* Modified the event handler for when gif animations are being created.
+		- This should increase in stability on slower machines.
+		- Please note that browsing to the "Desktop" in the file dialogs seems to sometimes cause issues.
+	* Tweaked the particle system some, hopefully for the better.
+
+
+Changes from 0.47 to 0.47b:
+--------------
+	* Re-added Shininess/Reflection to the surfaces as it is in-game (looks so much nicer).
+	* Added a toggle to 'Show Feet' under Character Menu.
+	* Added a "true lighting" mode/toggle under the View Menu (best used in conjunction of the View Panel to move the light around).
+	* Added support for having both lower (primary) and upper body animations (although its still rather primitive for the time being).
+		- Won't work 'properly' with the Gif Exporter.
+	* Added a quick and rough "wireframe" mode.	
+	* Adjusted particles yet again, and fixed a crash relating to particles on certain models.
+	* Character hands now automatically "close" to hold onto weapons when an item is equipped in either the hand slots.
+	* Corrected items that were applying textures to locations that they aren't intended to.
+	* Fixed a Crash when selecting "none" to remove the mount.
+	* Fixed/Improved the display rendering significantly (ie. Turkey.m2, GnomeMachine.m2, SubwayGlass, etc now render more accurately as with many other models).
+	* Fixed Language Packs.
+	* Fixed goblins character models - should now display.
+	* Fixed the "Bald" hair style - should now display correctly.
+	* Now remembers what image type you saved the screenshot as so you don't have to continuesly set it to jpg or png for example (but isn't saved over from session to session - that will be done later).
+	
+	Extra Changes in 0.47c:
+		* Fixed hair when viewing NPC Skins.
+		* When changing character models after just viewing Goblins will automatically switch useNPCSkins back to "false".
+		* Hands now automatically open again when weapons have been sheathed.
+		* Added some more Creature skins.
+		* Fixed Tabards.
+		* Models now use the Best Possible Level of detail,  very obvious when looking at more complex and larger models like Onyxia.
+			- Later on will add an option to select the level of detail to use.
+			- Also later will add a GUI to control what Model Geosets you you view/hide.
+		* Improved the way "Show Feet" works.
+		* Fixed eye-glows on character models (I hope).
+		* Added manual correction to Furbolg model - now stands up-right.
+		* Updated item list (only minor update 40 items or so, does not include 1.10 items).
+		
+	Extra Changes in 0.47d:
+		* Changes to when a gif frame is saved and updated.
+		* Now using GLEW for OpenGL 1.2-2.0 support.
+		* Corrected where Thunderfury and Phantom Blade got sheathed to - was on the wrong side.
+		* Changed the keyboard zoom keys from '+' and '-' to 'Ctrl +' and 'Ctrl -'.
+		* Significantly improved the Lighting System and Lighting Controls.
+			- Now supports upto 4 lights. /me crosses "Multiple Lighting" off the ToDo list.
+		* Fixed mouth and head (emote) animations.  Should now animate correctly when used as an 'upper body' animation.
+		* Fixed the alpha blending with undead eye-glows.
+		* Fixed the textures on (individual) item models.
+		* Fixed Background images.
+		* Fixed particles so they animate during gif's.
+
+Changes from 0.47d to 0.47e:
+--------------
+		* Added a light setting so that the light can be relative to the model.
+		* Added support to set whether the light is directional, positional, or a spot light.
+		* 'Save Char' now also saves and loads the current equipment being worn.
+		* Fixed the colour of certain glows - ie. DragonStalker helmet/shoulders.
+		* Decreased the depth of the Z-buffer, hopefully will improve model rendering on some cards.
+		* Fixed Ambient lighting - should now work as intended.
+		* Added pre-set camera angles.
+		* Fixed Goblin BakedNPC's.
+		* Added a 'Model Control' window, to control various aspects of the model.
+			- Also controls what model the 'Animation Control' frame affects.  ie. Change the animation of a mounted character.
+			- Future ToDo: add support for attaching and adding extra models to the 'scene'.
+		* Updated wxWidgets (the GUI Lib) to 2.6.3 from 2.6.1.
+		* Found and fixed the "scorched texture" look.
+			- Fix included reflective surfaces,  they should now display correctly.
+		* Improved the "wireframe" mode - now a lot cleaner.

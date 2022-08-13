@@ -1,0 +1,310 @@
+/**
+ * -------------------------------------------------------------------------------
+ *     You may modify and use this example theme as you wish!
+ * -------------------------------------------------------------------------------
+ *
+ * If the selectors are complete mindfuck for you, just see it like this:
+ * "nav ul li a" simply means that <a> has to be inside of <li>, which has to
+ * be inside of <ul> which has to be inside of <nav>. This is basic child/parent
+ * selectors and it is very useful - learn it!
+ *
+ * <nav>, <article>, <section>, <aside> are all HTML5 elements. They work just like
+ * <div> but simply has a different name. We use "HTML5shiv" to make them work in
+ * older browsers, so don't worry about it!
+ */
+
+/* General styles */
+body {
+	background-color:#1e1e1e;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: inherit;
+	color:#ffffff;
+}
+
+/* Global reset */
+* {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+/* Global link styles */
+a {
+	text-decoration:none;
+	color:#89ff88;
+}
+
+a:hover {
+	color:#fff;
+}
+
+/* Make sure input, select and textarea behave the same */
+input, select, textarea {
+	box-sizing:content-box;
+	-ms-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+}
+
+/* Website wrapper */
+#wrapper {
+	width:1300px;
+	margin:50px auto;
+	background-color:#19191b;
+}
+
+/* Header */
+header {
+	width: 319px;
+	height: 123px;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header .headline {
+	text-align:center;
+	font-weight:normal;
+	font-size:64px;
+	color:#00baff;
+	padding-top:100px;
+}
+
+/* Horizontal menu */
+nav {
+    border-bottom: 7px solid #76b347;
+    background-color: #89ff88;
+    height: 60px;
+    border-radius: 5px;
+}
+
+nav ul li {
+	float:left;
+}
+
+nav ul li a {
+	display: block;
+	padding: 23px 74px;
+    color: #548c29;
+    margin-left: auto;
+	margin-right: auto;
+	font-weight:bold;
+	text-transform:uppercase;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+nav ul li a:hover {
+	color:#fff;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+/* Right side */
+#right {
+	float:right;
+	width:250px;
+	padding-top:10px;
+}
+
+/* Right box */
+#right article {
+	margin:10px;
+	margin-top:0px;
+	margin-left:0px;
+}
+
+#right article .headline {
+	font-size:14px;
+    margin-left: auto;
+	margin-right: auto;
+	font-weight:bold;
+	text-transform:uppercase;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+	text-align:center;
+	color:#548c29;
+    border-bottom: 7px solid #76b347;
+    background-color: #89ff88;
+    border-radius: 5px;
+	padding: 25px;
+}
+
+#right article .content {
+	padding:5px;
+}
+
+/* Side menu */
+#right article #menu {
+	padding:0px;
+}
+
+#right article #menu ul li a {
+	padding:5px;
+	display:block;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+	text-align:center;
+	color:#fff;
+}
+
+#right article #menu ul li a:hover {
+	-webkit-transition: all 0.3s cubic-bezier(.23,1,.32,1) 0s;
+	transition: all 0.3s cubic-bezier(.23,1,.32,1) 0s;
+	font-style: italic;
+	text-align:center;
+	color:#fff;
+}
+
+/* Left side */
+#left {
+	padding-top:10px;
+	width: 1050px;
+	float:left;
+}
+
+#left article {
+	margin:10px;
+	margin-top:0px;
+}
+
+#left article .headline {
+	font-size:14px;
+    margin-left: auto;
+	margin-right: auto;
+	font-weight:bold;
+	text-transform:uppercase;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+	text-align:center;
+	color:#548c29;
+    border-bottom: 7px solid #76b347;
+    background-color: #89ff88;
+    border-radius: 5px;
+	padding: 25px;
+	display:block;
+}
+
+#left article .content {
+	padding: 15%;
+	margin-top: -82px;
+}
+
+#left #slider_wrapper {
+	width:703px;
+	height:201px;
+	padding:3px;
+	background-color:#1e1e1e;
+	overflow:hidden;
+}
+
+/* Footer */
+footer {
+	padding:10px;
+	text-align:center;
+	margin-top:10px;
+}
+
+footer .headline {
+	font-size:14px;
+	font-weight:normal;
+	margin-bottom:5px;
+}
+
+.slider {
+	background-image: url(../images/Slider.jpg);
+	height: 408px;
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid;
+	border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+	border-image-slice: 1;
+}
+
+.hvr-underline-from-center {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	overflow: hidden;
+  }
+  .hvr-underline-from-center:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 51%;
+	right: 51%;
+	bottom: 0;
+	background: #76b347;
+	height: 4px;
+	-webkit-transition-property: left, right;
+	transition-property: left, right;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+	left: 0;
+	right: 0;
+  }
+
+  .online_realm_button:first-child {
+	margin-top: 40px !important;
+  }
+
+  #store {
+	min-width: 826px !important;
+  }
+
+  #store form .filter_field {
+  float: left !important;
+  padding: 15px 15px !important;
+  margin-left: 0px !important;
+  padding-top: 5px !important;
+  height: 30px !important;
+}
+
+#store #cart {
+	margin-right: -20px !important;
+}
+
+.statistics_arena_head {
+	background: #89ff88 !important;
+	color: #548c29 !important;
+	text-align: center !important;
+}
+
+#statistics_title h3 {
+	color: #89ff88 !important;
+	text-align: center;
+}
+
+#realm_status_bg {
+	background-image: url(../images/realm_status_bg.png);
+	height:58px;
+	width:238px;
+}
+
+.fgen {
+	background-image: url(../images/fusiongen.png);
+	height:58px;
+	width:238px;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+.fgen:hover {
+	background-image: url(../images/fusiongen_hover.png);
+	height:58px;
+	width:238px;
+	-webkit-transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+    transition: all .3s cubic-bezier(.23,1,.32,1) 0s;
+}

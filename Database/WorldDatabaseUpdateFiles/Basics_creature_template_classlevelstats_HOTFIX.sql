@@ -1,0 +1,38 @@
+-- SET @realHealth = (SELECT BaseHealthExp0 FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 1);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseHealthExp0 = @realHealth WHERE Level = 2 AND class = 1;
+-- SET @realMana = (SELECT BaseMana FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 1);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseMana = @realMana WHERE Level = 2 AND class = 1;
+-- SET @realDamage= (SELECT BaseDamageExp0 FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 1);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseDamageExp0 = @realDamage WHERE Level = 2 AND class = 1;
+-- SET @realMAP = (SELECT BaseMeleeAttackPower FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 1);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseMeleeAttackPower = @realMAP WHERE Level = 2 AND class = 1;
+-- SET @realRAP = (SELECT BaseRangedAttackPower FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 1);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseRangedAttackPower = @realRAP WHERE Level = 2 AND class = 1;
+-- SET @realArmor = (SELECT BaseArmor FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 1);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseArmor = @realArmor WHERE Level = 2 AND class = 1;
+
+-- SET @realHealth = (SELECT BaseHealthExp0 FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 2);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseHealthExp0 = @realHealth WHERE Level = 2 AND class = 2;
+-- SET @realMana = (SELECT BaseMana FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 2);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseMana = @realMana WHERE Level = 2 AND class = 2;
+-- SET @realDamage= (SELECT BaseDamageExp0 FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 2);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseDamageExp0 = @realDamage WHERE Level = 2 AND class = 2;
+-- SET @realMAP = (SELECT BaseMeleeAttackPower FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 2);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseMeleeAttackPower = @realMAP WHERE Level = 2 AND class = 2;
+-- SET @realRAP = (SELECT BaseRangedAttackPower FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 2);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseRangedAttackPower = @realRAP WHERE Level = 2 AND class = 2;
+-- SET @realArmor = (SELECT BaseArmor FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 2);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseArmor = @realArmor WHERE Level = 2 AND class = 2;
+
+-- SET @realHealth = (SELECT BaseHealthExp0 FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 8);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseHealthExp0 = @realHealth WHERE Level = 2 AND class = 8;
+-- SET @realMana = (SELECT BaseMana FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 8);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseMana = @realMana WHERE Level = 2 AND class = 8;
+-- SET @realDamage= (SELECT BaseDamageExp0 FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 8);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseDamageExp0 = @realDamage WHERE Level = 2 AND class = 8;
+-- SET @realMAP = (SELECT BaseMeleeAttackPower FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 8);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseMeleeAttackPower = @realMAP WHERE Level = 2 AND class = 8;
+-- SET @realRAP = (SELECT BaseRangedAttackPower FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 8);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseRangedAttackPower = @realRAP WHERE Level = 2 AND class = 8;
+-- SET @realArmor = (SELECT BaseArmor FROM l10_mangos.creature_template_classlevelstats WHERE Level = 1 AND class = 8);
+-- UPDATE l10_mangos.creature_template_classlevelstats SET BaseArmor = @realArmor WHERE Level = 2 AND class = 8;

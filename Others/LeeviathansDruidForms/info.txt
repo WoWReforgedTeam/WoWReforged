@@ -1,0 +1,51 @@
+------------------------------------
+"Cohesive Druid Forms" by Leeviathan
+-----------for WoW 1.12.1-----------
+This patch replaces the original Classic WoW Druid Forms with more visually cohesive ones. This is not strictly a downport from later expansions, I've modified many of the models and textures.
+
+-------------
+Installation;
+-------------
+Copy one of these to your "Data" folder and rename to patch-3.MPQ: NEUTRAL-ALLIANCE_patch-3.MPQ, NEUTRAL-HORDE_patch-3.MPQ, VERY-ALLIANCE_patch-3.MPQ, VERY-HORDE_patch-3.MPQ
+	Why the choice? Unfortunately Travel Form, Aquatic Form, and Tree of Life Form are shared between Night Elf and Tauren druids, so...
+	-If you are playing a Night Elf druid and you want Tauren druids to look somewhat appropriate in shared forms then choose NEUTRAL-ALLIANCE_patch-3.MPQ
+	-If you are playing a Tauren druid and you want Night Elf druids to look somewhat appropriate in shared forms then choose NEUTRAL-HORDE_patch-3.MPQ
+	-If you are playing a Night Elf druid and you don't care what Tauren druids look like in shared forms then choose VERY-ALLIANCE_patch-3.MPQ
+	-If you are playing a Tauren druid and you don't care what Night Elf druids look like in shared forms then choose VERY-HORDE_patch-3.MPQ
+ 
+OPTIONAL PATCH: If you are playing on Elysium, copy ELYSIUM_patch-4.MPQ to your "Data" folder and rename to patch-4.MPQ
+	Elysium and many other private servers use the wrong display ID for Travel Form. If you are playing on one of these servers this patch will allow you to use the Stag model for your Travel Form, however Swamp Jaguars in the Swamp of Sorrows will also appear as stags.
+
+---------------------------
+DBFilesClient changes list:
+---------------------------
+//If you're combining this patch with another patch, use this information to find out what dbc files may need to be modified to be compatible
+//Note: When I edit DBC files my first column is "1", your first column may be "0"
+
+CreatureDisplayInfo.dbc
+	ID 918* corresponds to Travel Form (if server has it set correctly it'll be 918, some servers i.e. ELYSIUM use ID 632 so I've added "ELYSIUM_patch-4.MPQ")
+	Column 2 references ModelData ID, (changed from 82 to 453)
+
+
+CreatureModelData.dbc
+	ID 453 is the StormCrow model, which I have replaced with Travel Form
+	Column 7 is footprints or footfall noise I think (changed from -1 to 3)
+	Column 14 references CreatureSoundData.dbc ID (changed from 390 to 184)
+
+// Spell.dbc, SpellVisual.dbc, SpellVisualKit.dbc - These are all altered so that the occasional emote noise that happens when shapeshifting to Travel form is correct
+Spell.dbc: 
+	ID 783 is Travel Form
+	Column 116 References SpellVisual ID, (changed from 4228 to (custom) 7892)
+SpellVisual.dbc:
+	ID (custom) 7892 is a copy of ID 4228
+	Column 4 Reference to SpellVisualKit.dbc (3610 to (custom) 6758)
+SpellVisualKit.dbc:
+	ID (custom) 6758 is copy of ID 3610
+	Column 14 references SoundEntry ID (4121 to 2651)
+	
+// Also downported Sprint_Impact_Chest (renamed to ...CL) in an attempt to see if it would eliminate the bouncy dash spell effect. I don't think the downport worked perfectly though because there's no ribbon effect--still better than the bounce though.
+SpellVisualEffectName.dbc:
+	ID 1184 is dash
+	Column 3 to Sprint_Impact_ChestCL // Also added blp files ITEM\OBJECTCOMPONENTS\WEAPON\FLARE.blp and SPELLS\GRAD3A.BLP
+	
+// Bonus: Downported improved Moonfire spell, Moonfire_Impact_Base.M2, along with required textures

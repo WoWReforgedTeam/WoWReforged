@@ -1,0 +1,30 @@
+Javaslatok/Jellemzések:
+	- Amikor szerkesztesz egy dbc fájlt, javaslom a következőkez:
+		- Másold le a SZERVERED 5875/dbc mappáját biztonsági mentésnek valahová időnként
+		- Aztán a WDBX Editorral már szerkesztheted közvetlenül a szervered 5875/dbc mappájában levő fájlokat
+	- Az MPQ Editorban két mappát látsz, Teszt és Work.
+		- A worköt használom a kész patchekhez, tesztet meg csak randomkodáshoz.
+		- A work tartalma így mindig up-to-date
+	- Egy ilyen MPQ patchbe sok mindent lehet tenni, pl a DBC fájlokat a megfelelő mappákba helyezve
+		- Modell fájlokat, ikon fájlokat, zenéket, stb.
+	- patch-9.MPQ-nak hívjuk a mi saját patchünket, azért mert sorban tölti be a játék
+		- Tehát patch-a-z és aztán patch-0-9
+		- Az MPQ fájl kiterjesztésnek mindig nagybetűsnek kell lennie
+	- Csak egy patchet akarunk, tehát minden patchben benne kell lennie az eddigi összes patches módosításnak
+		- Ergo az előző patch tartalma legyen mindig a Work-ben és arra építs mindig, csak kiegészítgetve
+		- Ha beleteszel egy új modelt vagy új bármit, hozd létre az útvonalát
+			- Pl ha a modelviewerben átszerkesztesz mondjuk egy World/Doodad/oszlop.mpx fájlt, akkor
+				- Hozd létre a Workben a World mappát, azon belül meg a Doodad mappát és oda rakd az mpx-et
+
+Patch készítése:
+	- Másolj mindent amit eddig csináltál/tunk a work könyvtárba az MPQEditor mappán belül
+	- Nyisd meg az exét
+	- Fájl -> New MPQ archive
+	- Írd be hogy patch-9.MPQ (AZ MPQ MINDIG NAGYBETŰ!)
+	- Tovább -> Build from directory
+	- Itt tallózd be az MPQEditor Work mappáját
+		- A Work mappa legyen kijelölve ne a tartalma!
+	- Tovább -> Tovább -> X-eld be hogy: Create MPQ archive with format version 2.0
+	- Tovább -> Befejezés
+	- Ekkor létrehozta az exe fájl mellett a patch-9.MPQ-t
+	- Ezt az MPQ-t másold a WoW kliensed Data könyvtárába felülírva az előzőt

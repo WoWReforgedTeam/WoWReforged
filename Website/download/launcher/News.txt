@@ -1,0 +1,6 @@
+Durability loss system reworked!
+Added and changed a few talents for Enhancement Shamans!
+Changed the druis form textures to better ones!
+Added the Spell Skill System!
+Added Water Elemental, Slow, Brilliance Aura and Arcane Blast for Mages!
+Added Crusader Strike and Holy Strike for Paladins!

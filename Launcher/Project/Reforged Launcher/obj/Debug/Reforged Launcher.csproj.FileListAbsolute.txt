@@ -1,0 +1,24 @@
+D:\Documents\Visual Studio Projects\Reforged Launcher\Reforged Launcher\bin\Debug\Reforged Launcher.exe.config
+D:\Documents\Visual Studio Projects\Reforged Launcher\Reforged Launcher\bin\Debug\Reforged Launcher.exe
+D:\Documents\Visual Studio Projects\Reforged Launcher\Reforged Launcher\bin\Debug\Reforged Launcher.pdb
+D:\Documents\Visual Studio Projects\Reforged Launcher\Reforged Launcher\bin\Debug\Renci.SshNet.dll
+D:\Documents\Visual Studio Projects\Reforged Launcher\Reforged Launcher\bin\Debug\Renci.SshNet.xml
+D:\Documents\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged Launcher.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged_Launcher.Form1.resources
+D:\Documents\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged_Launcher.Properties.Resources.resources
+D:\Documents\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged Launcher.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged Launcher.exe
+D:\Documents\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged Launcher.pdb
+D:\Projects\Visual Studio Projects\Reforged Launcher\Reforged Launcher\bin\Debug\Reforged_Launcher.exe.config
+D:\Projects\Visual Studio Projects\Reforged Launcher\Reforged Launcher\bin\Debug\Reforged_Launcher.exe
+D:\Projects\Visual Studio Projects\Reforged Launcher\Reforged Launcher\bin\Debug\Reforged_Launcher.pdb
+D:\Projects\Visual Studio Projects\Reforged Launcher\Reforged Launcher\bin\Debug\Renci.SshNet.dll
+D:\Projects\Visual Studio Projects\Reforged Launcher\Reforged Launcher\bin\Debug\Renci.SshNet.xml
+D:\Projects\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged_Launcher.Form1.resources
+D:\Projects\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged_Launcher.Properties.Resources.resources
+D:\Projects\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged Launcher.csproj.GenerateResource.cache
+D:\Projects\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged Launcher.csproj.CoreCompileInputs.cache
+D:\Projects\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged Launcher.csproj.CopyComplete
+D:\Projects\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged_Launcher.exe
+D:\Projects\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged_Launcher.pdb
+D:\Projects\Visual Studio Projects\Reforged Launcher\Reforged Launcher\obj\Debug\Reforged Launcher.csprojAssemblyReference.cache

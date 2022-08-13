@@ -1,0 +1,7 @@
+System.IndexOutOfRangeException: A(z) 0 pozíciónál nincs sor.
+   a következõ helyen: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   a következõ helyen: SpellEditor.MainWindow.<Button_Click>d__50.MoveNext()
+--- Verem vége nyomkövetés a kivétel elõzõ elõfordulási helyétõl kezdve ---
+   a következõ helyen: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   a következõ helyen: System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   a következõ helyen: System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)

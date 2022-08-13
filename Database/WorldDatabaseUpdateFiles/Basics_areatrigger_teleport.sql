@@ -1,0 +1,43 @@
+-- Level updates
+UPDATE reforged_mangos.areatrigger_teleport SET required_level = ROUND(required_level / 6) WHERE required_level > 6;
+
+-- Dungeon failed to enter entry message change
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 3 to enter.' WHERE (`id` = '101') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 2 to enter.' WHERE (`id` = '78') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 3 to enter.' WHERE (`id` = '45') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 2 to enter.' WHERE (`id` = '145') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 2 to enter.' WHERE (`id` = '228') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 3 to enter.' WHERE (`id` = '244') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 2 to enter.' WHERE (`id` = '257') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 5 to enter.' WHERE (`id` = '286') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 3 to enter.' WHERE (`id` = '324') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 4 to enter.' WHERE (`id` = '442') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 6 to enter.' WHERE (`id` = '446') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 3 to enter.' WHERE (`id` = '523') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 3 to enter.' WHERE (`id` = '610') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 3 to enter.' WHERE (`id` = '612') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 3 to enter.' WHERE (`id` = '614') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 5 to enter.' WHERE (`id` = '902') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 6 to enter.' WHERE (`id` = '924') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 7 to enter.' WHERE (`id` = '1466') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 8 to enter.' WHERE (`id` = '1468') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 8 to enter.' WHERE (`id` = '2214') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 8 to enter.' WHERE (`id` = '2216') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 8 to enter.' WHERE (`id` = '2217') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 1 to enter.' WHERE (`id` = '2230') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 8 to enter.' WHERE (`id` = '2567') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be part of a Raid group, at least level 8 and have the Drakefire Amulet in your inventory to enter.' WHERE (`id` = '2848') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be part of a Raid group and at least level 8 to enter.' WHERE (`id` = '2886') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 8 to enter.' WHERE (`id` = '3183') and (`patch` = '1');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 8 to enter.' WHERE (`id` = '3184') and (`patch` = '1');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 5 to enter.' WHERE (`id` = '3133') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 5 to enter.' WHERE (`id` = '3134') and (`patch` = '0');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 8 to enter.' WHERE (`id` = '3185') and (`patch` = '1');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 8 to enter.' WHERE (`id` = '3186') and (`patch` = '1');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 8 to enter.' WHERE (`id` = '3187') and (`patch` = '1');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be at least level 8 to enter.' WHERE (`id` = '3189') and (`patch` = '1');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be part of a raid group and at least 8th level to enter.' WHERE (`id` = '3726') and (`patch` = '4');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be part of a Raid group and at least level 8 to enter.' WHERE (`id` = '3928') and (`patch` = '5');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You cannot enter here unless the gates of Ahn\'Qiraj have been opened, you are level 8+, and in a raid group.' WHERE (`id` = '4008') and (`patch` = '7');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You cannot enter here unless the gates of Ahn\'Qiraj have been opened, you are level 8+, and in a raid group.' WHERE (`id` = '4010') and (`patch` = '7');
+UPDATE `reforged_mangos`.`areatrigger_teleport` SET `message` = 'You must be level 9+, in a Raid group, and be attuned to Naxxramas to enter.' WHERE (`id` = '4055') and (`patch` = '9');

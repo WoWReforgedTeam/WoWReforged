@@ -1,0 +1,86 @@
+**********************************************************
+Tutorial for adding your own items to the items.csv list.
+**********************************************************
+
+For this tutorial, Allakhazam is your friend!
+
+items.csv is a standard text list of Comma-separated values, if you don't know what that means then I
+suggest you start here - http://en.wikipedia.org/wiki/Comma-separated_values
+The easiest way (in my opinion) to edit a CSV file is with Microsoft Excel.
+
+There are 6 fields in the items list, these are
+- Item ID
+- Display ID
+- Item Type
+- Item Sub Type
+- Item Slot
+- Item Sheath location
+- Item Name
+
+
+Item ID - this is the ID value of the item you wish to add.
+If you cannot find the ID of the item you wish then as long as the value is UNIQUE (only 1 item with the value) it should be OK.
+I personally have been using 900xx number range (eg. 90002, 90009, 90012, etc) for adding items that have not yet been discovered in-game.
+
+
+Display ID - this is THE most important part of the entire item list.
+The value for the model ID is the index reference value to the ItemDisplayInfo.dbc. The ItemDisplayInfo.dbc is Blizzards 'database' for items
+which basically tells the game (and the wow model viewer) how to render items.  It contains the texture info, model info, icon info, special effects 
+and everything else required to draw the item, without this, there is nothing.
+
+
+Item Type - this is blizzards Item Type value.
+Its basically 2 for weapons,  4 for armour.
+
+
+Item Sub Type - similar to 'Item Type', except it covers things like "cloth", "plate", etc for "armour" type items.
+And "Sword", "Axe", etc for "Weapon" type items.
+
+
+Item Slot - this is the slot number that the item is 'equipped to'.
+
+Item Sheath Location - this value tells the program where to sheath the item to.  Should be a value between 26 and 32.
+
+Item Name - well, self explanatory don't you think?
+
+
+Now as for how to get the values for Item ID, Display ID, Item Type, and Item Sub Type we visit http://wow.allakhazam.com
+Once there, enter the item name that you want to add to the item.csv list in the "Search" bar, and press enter.
+In this example I will be using "Beaststalker Blade".  That search took me to http://wow.allakhazam.com/db/item.html?witem=15782.
+Right away I can already see the Item ID is 15782, but we still need to get the rest of the values.
+You should see something like:
+
+Beaststalker Blade 
+Binds when picked up 
+One-Hand Sword 
+55 - 103 Damage Speed 2.20 
+(35.9 damage per second) 
+Passive: +33 Attack Power when fighting Beasts.
+
+Below this is "Item History | XML", the XML is what we're interested in.
+Follow the XML link.  For the Beaststalker Blade it takes me to http://wow.allakhazam.com/dev/wow/item-xml.pl?witem=15782
+
+Once here, you will see a plain page with various item data. The values we want are:
+
+displayinfo
+itemclass
+itemid
+itemsubclass
+slot
+
+For the Beaststalker Blade the values look like:
+<displayinfo>26463</displayinfo>
+<itemclass>2</itemclass>
+<itemid>15782</itemid> 
+<itemsubclass>7</itemsubclass>
+<slot>13</slot>
+
+
+Now we have all the required info to add our item to the items.csv list!
+Our new entry would then look something like:
+15782, 26463, 2, 7, 13, Beaststalker Blade
+
+Wellah! We're done and have added a new item to the list.  By the way folks, the item is already in the list so no need to add it again :)
+Now take this example and apply it to a newer items added to Allakhazam and see how they look.
+
+Enjoy.

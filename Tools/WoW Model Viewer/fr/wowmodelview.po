@@ -1,0 +1,570 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2005-10-26 01:54+1000\n"
+"Last-Translator: Culhag \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modelviewer.cpp:126
+msgid "File List"
+msgstr "Liste des fichiers"
+
+#: modelviewer.cpp:126
+#: modelviewer.cpp:133
+msgid "Animation"
+msgstr "Animation"
+
+#: modelviewer.cpp:133
+#: modelviewer.cpp:138
+msgid "Character"
+msgstr "Personnage"
+
+#: modelviewer.cpp:138
+msgid "CharDock"
+msgstr "CharDock"
+
+#: modelviewer.cpp:142
+msgid "View"
+msgstr "Vue"
+
+#: modelviewer.cpp:142
+#: modelviewer.cpp:202
+msgid "Save Screenshot\tF12"
+msgstr "Capture d'écran\tF12"
+
+#: modelviewer.cpp:204
+msgid "E&xit\tCTRL+X"
+msgstr "&Quitter\tCTRL+X"
+
+#: modelviewer.cpp:207
+msgid "Show file list"
+msgstr "Montrer liste des fichiers"
+
+#: modelviewer.cpp:208
+msgid "Show animaton control"
+msgstr "Montrer contrôles d'anim."
+
+#: modelviewer.cpp:209
+msgid "Show character control"
+msgstr "Montrer contrôles du perso."
+
+#: modelviewer.cpp:210
+msgid "Show viewport control"
+msgstr "Montrer contrôles de vue"
+
+#: modelviewer.cpp:212
+msgid "Background Color..."
+msgstr "Couleur de fond..."
+
+#: modelviewer.cpp:213
+msgid "Load Background\tL"
+msgstr "Charger un fond\tL"
+
+#: modelviewer.cpp:215
+msgid "Show model"
+msgstr "Montrer le modèle"
+
+#: modelviewer.cpp:217
+msgid "Show bones"
+msgstr "Montrer le squelette"
+
+#: modelviewer.cpp:218
+msgid "Show bounding volume\tB"
+msgstr "Montrer les volumes\tB"
+
+#: modelviewer.cpp:219
+msgid "Show lighting angle"
+msgstr "Montrer l'angle d'éclairage"
+
+#: modelviewer.cpp:221
+msgid "Lighting Color..."
+msgstr "Couleur d'éclairage..."
+
+#: modelviewer.cpp:222
+msgid "Use directional light"
+msgstr "Lumière directionnelle"
+
+#: modelviewer.cpp:224
+msgid "Use ambient light"
+msgstr "Lumière ambiante"
+
+#: modelviewer.cpp:225
+msgid "Model lights only"
+msgstr "Lumières du modèle seules"
+
+#: modelviewer.cpp:227
+msgid "Use model camera"
+msgstr "Caméra du modèle"
+
+#: modelviewer.cpp:230
+msgid "Show Underwear"
+msgstr "Montrer les sous-vêtements"
+
+#: modelviewer.cpp:232
+msgid "Show Ears\tE"
+msgstr "Montrer les oreilles\tE"
+
+#: modelviewer.cpp:234
+msgid "Show Hair\tH"
+msgstr "Montrer les cheveux\tH"
+
+#: modelviewer.cpp:236
+msgid "Show Facial Hair\tF"
+msgstr "Montrer la pilosité\tF"
+
+#: modelviewer.cpp:238
+msgid "Sheathe Weapons\tS"
+msgstr "Ranger les armes\tS"
+
+#: modelviewer.cpp:242
+msgid "Save Equipment\tF5"
+msgstr "Sauver l'équipement\tF5"
+
+#: modelviewer.cpp:243
+msgid "Load Equipment\tF6"
+msgstr "Charger l'équipement\tF6"
+
+#: modelviewer.cpp:244
+msgid "Clear Equipment"
+msgstr "Enlever l'équipement"
+
+#: modelviewer.cpp:246
+msgid "Load Item Set"
+msgstr "Charger un set d'équipement"
+
+#: modelviewer.cpp:247
+msgid "Load Start Outfit"
+msgstr "Charger un ensemble de départ"
+
+#: modelviewer.cpp:249
+msgid "Save Character\tF7"
+msgstr "Sauver le personnage\tF7"
+
+#: modelviewer.cpp:250
+msgid "Load Character\tF8"
+msgstr "Charger un personnage\tF8"
+
+#: modelviewer.cpp:252
+msgid "Mount a character..."
+msgstr "Choisir une monture..."
+
+#: modelviewer.cpp:256
+msgid "Random character looks"
+msgstr "Aspect aléatoire des persos"
+
+#: modelviewer.cpp:258
+msgid "Random creature skins"
+msgstr "Aspect aléatoire des créatures"
+
+#: modelviewer.cpp:261
+msgid "Always show default doodads in WMOs"
+msgstr "Toujours les doodads par défaut dans les WMOs"
+
+#: modelviewer.cpp:265
+msgid "&File"
+msgstr "&Fichier"
+
+#: modelviewer.cpp:266
+msgid "&View"
+msgstr "&Affichage"
+
+#: modelviewer.cpp:267
+msgid "&Character"
+msgstr "&Personnage"
+
+#: modelviewer.cpp:268
+msgid "&Options"
+msgstr "&Options"
+
+#: modelviewer.cpp:616
+msgid "Save character"
+msgstr "Sauver le personnage"
+
+#: modelviewer.cpp:616
+#: modelviewer.cpp:626
+msgid "Character files (*.chr)|*.chr"
+msgstr "Fichiers de personnage (*.chr)|*.chr"
+
+#: modelviewer.cpp:626
+msgid "Load character"
+msgstr "Charger un personnage"
+
+#: modelviewer.cpp:728
+msgid "Save screenshot"
+msgstr "Sauver la capture d'écran"
+
+#msgid "Bitmap Images (*.bmp)|*.bmp|TGA Images (*.tga)|*.tga"
+#msgstr "Images Bitmap (*.bmp)|*.bmp|Images TGA (*.tga)|*.tga"
+#: modelviewer.cpp:728
+#: modelviewer.cpp:739
+msgid "Load Background"
+msgstr "Charger un fond"
+
+#msgid "Bitmap Images (*.bmp)|*.bmp"
+#msgstr "Images Bitmap (*.bmp)|*.bmp"
+#: modelviewer.cpp:739
+#: charcontrol.cpp:116
+msgid "Skin color"
+msgstr "Couleur de peau"
+
+#: charcontrol.cpp:117
+msgid "Face type"
+msgstr "Visage"
+
+#: charcontrol.cpp:118
+msgid "Hair color"
+msgstr "Couleur des cheveux"
+
+#: charcontrol.cpp:119
+msgid "Hair style"
+msgstr "Coiffure"
+
+#: charcontrol.cpp:120
+msgid "Facial hair/deco"
+msgstr "Pilosité/déco"
+
+#: charcontrol.cpp:121
+msgid "Facial deco color"
+msgstr "Couleur de déco"
+
+#: charcontrol.cpp:141
+msgid "Equipment"
+msgstr "Equipement"
+
+#: charcontrol.cpp:147
+#: charcontrol.cpp:376
+#: charcontrol.cpp:1326
+msgid "---- None ----"
+msgstr "---- Rien ----"
+
+#: charcontrol.cpp:149
+msgid "Head"
+msgstr "Tête"
+
+#: charcontrol.cpp:151
+msgid "Shoulder"
+msgstr "Epaules"
+
+#: charcontrol.cpp:153
+msgid "Shirt"
+msgstr "Chemise"
+
+#: charcontrol.cpp:154
+msgid "Chest"
+msgstr "Torse"
+
+#: charcontrol.cpp:155
+msgid "Belt"
+msgstr "Ceinture"
+
+#: charcontrol.cpp:156
+msgid "Legs"
+msgstr "Jambes"
+
+#: charcontrol.cpp:157
+msgid "Boots"
+msgstr "Bottes"
+
+#: charcontrol.cpp:159
+msgid "Bracers"
+msgstr "Bracelets"
+
+#: charcontrol.cpp:160
+msgid "Gloves"
+msgstr "Gants"
+
+#: charcontrol.cpp:161
+msgid "Cape"
+msgstr "Cape"
+
+#: charcontrol.cpp:163
+msgid "Right hand"
+msgstr "Main droite"
+
+#: charcontrol.cpp:164
+msgid "Left hand"
+msgstr "Main gauche"
+
+#: charcontrol.cpp:166
+msgid "Tabard"
+msgstr "Tabard"
+
+#: charcontrol.cpp:177
+msgid "Icon"
+msgstr "Icône"
+
+#: charcontrol.cpp:178
+msgid "Icon Color"
+msgstr "Couleur d'icône"
+
+#: charcontrol.cpp:179
+msgid "Border"
+msgstr "Bord"
+
+#: charcontrol.cpp:180
+msgid "Border Color"
+msgstr "Couleur du bord"
+
+#: charcontrol.cpp:181
+msgid "Background Color"
+msgstr "Couleur du fond"
+
+#: charcontrol.cpp:185
+msgid "Tabard details"
+msgstr "Détails du tabard"
+
+#: charcontrol.cpp:188
+msgid "Choose mount"
+msgstr "Choisir une monture"
+
+#: charcontrol.cpp:438
+msgid "Save equipment"
+msgstr "Sauver l'équipement"
+
+#: charcontrol.cpp:438
+#: charcontrol.cpp:447
+msgid "Equipment files (*.eq)|*.eq"
+msgstr "Fichiers déquipement (*.eq)|*.eq"
+
+#: charcontrol.cpp:447
+msgid "Load equipment"
+msgstr "Charger un équipement"
+
+#: charcontrol.cpp:1195
+#: charcontrol.cpp:1197
+msgid "Choose an item"
+msgstr "Choisir un objet"
+
+#: charcontrol.cpp:1250
+msgid "Choose an item set"
+msgstr "Choisir un set d'objets"
+
+#: charcontrol.cpp:1250
+msgid "Item sets"
+msgstr "Sets d'objets"
+
+#: charcontrol.cpp:1274
+msgid "Choose a class"
+msgstr "Choisir une classe"
+
+#: charcontrol.cpp:1274
+msgid "Classes"
+msgstr "Classes"
+
+#: charcontrol.cpp:1335
+msgid "Choose a mount"
+msgstr "Choisir une monture"
+
+#: charcontrol.cpp:1335
+msgid "Creatures"
+msgstr "Créatures"
+
+#msgid "Choose a character model"
+#msgstr "Choisir un modèle de personnage"
+#: charcontrol.cpp:1623
+#: viewcontrol.cpp:47
+msgid "Update View"
+msgstr "Mettre à jour la vue"
+
+#: viewcontrol.cpp:48
+msgid "Save"
+msgstr "Sauver"
+
+#: viewcontrol.cpp:49
+msgid "Load"
+msgstr "Charger"
+
+#: viewcontrol.cpp:51
+msgid "Field of View:"
+msgstr "Champ de vision :"
+
+#: viewcontrol.cpp:59
+msgid "Rotation (XYZ)"
+msgstr "Rotation (XYZ)"
+
+#: viewcontrol.cpp:64
+msgid "Light Pos (XYZ)"
+msgstr "Pos. lumière (XYZ)"
+
+#: viewcontrol.cpp:69
+msgid "Model Pos (XYZ)"
+msgstr "Pos. modèle (XYZ)"
+
+#: animcontrol.cpp:29
+msgid "Pause"
+msgstr "Pause"
+
+#: animcontrol.cpp:31
+msgid "Skin"
+msgstr "Aspect"
+
+#: animcontrol.cpp:36
+msgid "Item set"
+msgstr "Set d'objets"
+
+#: animcontrol.cpp:43
+msgid "Speed: 1.0x"
+msgstr "Vitesse : 1.0x"
+
+#: animcontrol.cpp:119
+msgid "Item"
+msgstr "Objet"
+
+#: animcontrol.cpp:141
+msgid "(No doodads)"
+msgstr "(Pas de doodads)"
+
+#: animcontrol.cpp:165
+msgid "This group has been removed from the WMO"
+msgstr "Ce groupe a été enlevé du WMO"
+
+#: animcontrol.cpp:333
+#, c-format
+msgid "Speed: %.1fx"
+msgstr "Vitesse : %.1fx"
+
+#: itemdb.cpp:9
+msgid "All"
+msgstr "Tous"
+
+#: itemdb.cpp:10
+msgid "Helmets"
+msgstr "Casques"
+
+#: itemdb.cpp:11
+msgid "Neck"
+msgstr "Cou"
+
+#: itemdb.cpp:12
+msgid "Shoulder armor"
+msgstr "Armure d'épaule"
+
+#: itemdb.cpp:13
+msgid "Shirts"
+msgstr "Chemise"
+
+#: itemdb.cpp:14
+msgid "Chest armor"
+msgstr "Armure de torse"
+
+#: itemdb.cpp:15
+msgid "Belts"
+msgstr "Ceintures"
+
+#: itemdb.cpp:16
+msgid "Pants"
+msgstr "Pantalons"
+
+#: itemdb.cpp:20
+msgid "Rings"
+msgstr "Anneaux"
+
+#: itemdb.cpp:21
+msgid "Accessories"
+msgstr "Accessoires"
+
+#: itemdb.cpp:22
+msgid "Daggers"
+msgstr "Dagues"
+
+#: itemdb.cpp:23
+msgid "Shields"
+msgstr "Boucliers"
+
+#: itemdb.cpp:24
+msgid "Bows"
+msgstr "Arcs"
+
+#: itemdb.cpp:25
+msgid "Capes"
+msgstr "Capes"
+
+#: itemdb.cpp:26
+msgid "Two-handed weapons"
+msgstr "Armes à deux mains"
+
+#: itemdb.cpp:27
+msgid "Quivers"
+msgstr "Arbalètes"
+
+#: itemdb.cpp:28
+msgid "Tabards"
+msgstr "Tabards"
+
+#: itemdb.cpp:29
+msgid "Robes"
+msgstr "Robes"
+
+#: itemdb.cpp:30
+msgid "One-handed weapons"
+msgstr "Armes à une main"
+
+#: itemdb.cpp:31
+msgid "Claws"
+msgstr "Griffes"
+
+#: itemdb.cpp:32
+msgid "Offhand"
+msgstr "Main gauche"
+
+#: itemdb.cpp:33
+#: itemdb.cpp:34
+msgid "Thrown"
+msgstr "Lancé"
+
+#: itemdb.cpp:35
+msgid "Guns and wands"
+msgstr "Fusils et baguettes"
+
+#: itemselection.cpp:141
+msgid "Double-click to select only one category"
+msgstr "Double-click pour une seule catégorie"
+
+#: itemselection.cpp:60
+msgid "Filter   "
+msgstr "Filtre"
+
+#: itemselection.cpp:63
+msgid "Clear"
+msgstr "Effacer"
+
+msgid "Language"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Select Locale"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Play"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Auto Animate"
+msgstr ""
+
+msgid "Frame: 0"
+msgstr ""
+
+#, c-format
+msgid "Frame: %i"
+msgstr "Frame: %i"
+
+msgid "Show mask"
+msgstr ""
+
+msgid "Close"
+msgstr ""

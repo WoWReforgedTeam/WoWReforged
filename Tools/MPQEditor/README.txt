@@ -1,0 +1,18 @@
+HOW TO CREATE A PATCH:
+	- Open the MPQEditor.exe
+	- Open MPQ button, then select patch-9.MPQ from Reforged Client
+	- Right click on the top folder called patch-9.MPQ, then Extract it to MPQEditor's "Work" folder
+		- You can use any other folder btw, it's just an example, same with the "Test" folder
+		- Now you have every item our patch has extracted to your Work folder
+	- Copy everything you created under the "Work" folder, overriding the existing if needed
+	- Open the MPQEditor.exe
+	- File -> New MPQ archive
+	- Type in patch-9.MPQ (THE MPQ ALWAYS CAPITAL!)
+	- Next -> Build from directory
+	- Browse the MPQEditor's "Work" folder
+		- The "Work" folder should be selected, not it's content!
+	- Next -> Next -> Check the following: "Create MPQ archive with format version 2.0"
+	- Next -> Finish
+	- Now you have a patch-9.MPQ just beside your MPQEditor.exe
+	- Copy this new MPQ file into your WoW's Data folder, overriding the existing
+	- Have fun testing it!

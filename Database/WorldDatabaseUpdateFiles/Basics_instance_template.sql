@@ -1,0 +1,4 @@
+-- SET INSTANCE LEVELS CORRECTLY
+-- Looks like this table is missing from the vmangos core
+-- UPDATE required_level.instance_template SET levelMin = ROUND(levelMin / 6);
+-- UPDATE required_level.instance_template SET levelMax = ROUND(levelmax / 6);

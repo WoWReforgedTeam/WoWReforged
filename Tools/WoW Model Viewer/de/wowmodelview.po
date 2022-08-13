@@ -1,0 +1,534 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-01-08 20:03+0100\n"
+"Last-Translator: Lars Drögemüller <Die_Backe@web.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modelviewer.cpp:126
+msgid "File List"
+msgstr "Dateien"
+
+#: modelviewer.cpp:126
+#: modelviewer.cpp:133
+msgid "Animation"
+msgstr "Animation"
+
+#: modelviewer.cpp:133
+#: modelviewer.cpp:138
+msgid "Character"
+msgstr "Charakter"
+
+#: modelviewer.cpp:142
+msgid "View"
+msgstr "Ansicht"
+
+#: modelviewer.cpp:142
+#: modelviewer.cpp:202
+msgid "Save Screenshot\tF12"
+msgstr "Screenshot speichern\tF12"
+
+#: modelviewer.cpp:204
+msgid "E&xit\tCTRL+X"
+msgstr "&Schließen\tCTRL+X"
+
+#: modelviewer.cpp:207
+msgid "Show file list"
+msgstr "Dateiliste anzeigen"
+
+#: modelviewer.cpp:208
+msgid "Show animaton control"
+msgstr "Animations Frame anzeigen"
+
+#: modelviewer.cpp:209
+msgid "Show character control"
+msgstr "Charakter Frame zeigen"
+
+#: modelviewer.cpp:210
+msgid "Show viewport control"
+msgstr "Ansichts Frame zeigen"
+
+#: modelviewer.cpp:212
+msgid "Background Color..."
+msgstr "Hintergrundfarbe..."
+
+#: modelviewer.cpp:213
+msgid "Load Background\tL"
+msgstr "Hintergrund Laden\tL"
+
+#: modelviewer.cpp:215
+msgid "Show model"
+msgstr "Model zeigen"
+
+#: modelviewer.cpp:217
+msgid "Show bones"
+msgstr "Bones Zeigen"
+
+#: modelviewer.cpp:218
+msgid "Show bounding volume\tB"
+msgstr "Kollisionsvolumen zeigen\tB"
+
+#: modelviewer.cpp:219
+msgid "Show lighting angle"
+msgstr "Lichteinfallswinkel zeigen"
+
+#: modelviewer.cpp:221
+msgid "Lighting Color..."
+msgstr "Beleuchtungsfarbe..."
+
+#: modelviewer.cpp:222
+msgid "Use directional light"
+msgstr "Lichtquelle benutzen"
+
+#: modelviewer.cpp:224
+msgid "Use ambient light"
+msgstr "Gleichmäßiges Licht benutzen"
+
+#: modelviewer.cpp:225
+msgid "Model lights only"
+msgstr "Nur modeleigene Beleuchtung"
+
+#: modelviewer.cpp:227
+msgid "Use model camera"
+msgstr "Modeleigene Kamera benutzen"
+
+#: modelviewer.cpp:230
+msgid "Show Underwear"
+msgstr "Unterwäsche zeigen"
+
+#: modelviewer.cpp:232
+msgid "Show Ears\tE"
+msgstr "Ohren zeigen\tE"
+
+#: modelviewer.cpp:234
+msgid "Show Hair\tH"
+msgstr "Haare zeigen\tH"
+
+#: modelviewer.cpp:236
+msgid "Show Facial Hair\tF"
+msgstr "Gesichtsdekoration zeigen\tF"
+
+#: modelviewer.cpp:238
+msgid "Sheathe Weapons\tS"
+msgstr "Waffen einstecken\tS"
+
+#: modelviewer.cpp:242
+msgid "Save Equipment\tF5"
+msgstr "Ausrüstung speichern\tF5"
+
+#: modelviewer.cpp:243
+msgid "Load Equipment\tF6"
+msgstr "Ausrüstung laden\tF6"
+
+#: modelviewer.cpp:244
+msgid "Clear Equipment"
+msgstr "Ausrüstung zurücksetzen"
+
+#: modelviewer.cpp:246
+msgid "Load Item Set"
+msgstr "Set laden"
+
+#: modelviewer.cpp:247
+msgid "Load Start Outfit"
+msgstr "Startausrüstung laden"
+
+#: modelviewer.cpp:249
+msgid "Save Character\tF7"
+msgstr "Charakter speichern\tF7"
+
+#: modelviewer.cpp:250
+msgid "Load Character\tF8"
+msgstr "Charakter laden\tF8"
+
+#: modelviewer.cpp:252
+msgid "Mount a character..."
+msgstr "Reittier auswählen..."
+
+#: modelviewer.cpp:256
+msgid "Random character looks"
+msgstr "Zufälliges Aussehen"
+
+#: modelviewer.cpp:258
+msgid "Random creature skins"
+msgstr "Zufällige Kreaturtexturen"
+
+#: modelviewer.cpp:261
+msgid "Always show default doodads in WMOs"
+msgstr "Standard doodads immer in WMOs anzeigen"
+
+#: modelviewer.cpp:265
+msgid "&File"
+msgstr "&Datei"
+
+#: modelviewer.cpp:266
+msgid "&View"
+msgstr "&Ansicht"
+
+#: modelviewer.cpp:267
+msgid "&Character"
+msgstr "&Charakter"
+
+#: modelviewer.cpp:268
+msgid "&Options"
+msgstr "&Optionen"
+
+#: modelviewer.cpp:616
+msgid "Save character"
+msgstr "Charakter speichern"
+
+#: modelviewer.cpp:616
+#: modelviewer.cpp:626
+#, fuzzy
+msgid "Character files (*.chr)|*.chr"
+msgstr "Character files (*.chr)|*.chr"
+
+#: modelviewer.cpp:626
+msgid "Load character"
+msgstr "Charakter laden"
+
+#: modelviewer.cpp:728
+msgid "Save screenshot"
+msgstr "Screenshot speichern"
+
+#msgid "Bitmap Images (*.bmp)|*.bmp|TGA Images (*.tga)|*.tga"
+#msgstr ""
+#: modelviewer.cpp:728
+#: modelviewer.cpp:739
+msgid "Load Background"
+msgstr "Hintergrund laden"
+
+#msgid "Bitmap Images (*.bmp)|*.bmp"
+#msgstr ""
+#: modelviewer.cpp:739
+#: charcontrol.cpp:116
+msgid "Skin color"
+msgstr "Hautfarbe"
+
+#: charcontrol.cpp:117
+msgid "Face type"
+msgstr "Gesicht"
+
+#: charcontrol.cpp:118
+msgid "Hair color"
+msgstr "Haarfarbe"
+
+#: charcontrol.cpp:119
+msgid "Hair style"
+msgstr "Frisur"
+
+#: charcontrol.cpp:120
+msgid "Facial hair/deco"
+msgstr "Gesichtsdekoration"
+
+#: charcontrol.cpp:121
+msgid "Facial deco color"
+msgstr "Gesichtsdekoration Farbe"
+
+#: charcontrol.cpp:141
+msgid "Equipment"
+msgstr "Ausrüstung"
+
+#: charcontrol.cpp:147
+#: charcontrol.cpp:376
+#: charcontrol.cpp:1326
+msgid "---- None ----"
+msgstr "---- Nichts ----"
+
+#: charcontrol.cpp:149
+msgid "Head"
+msgstr "Kopf"
+
+#: charcontrol.cpp:151
+msgid "Shoulder"
+msgstr "Schultern"
+
+#: charcontrol.cpp:153
+msgid "Shirt"
+msgstr "Hemd"
+
+#: charcontrol.cpp:154
+msgid "Chest"
+msgstr "Brust"
+
+#: charcontrol.cpp:155
+msgid "Belt"
+msgstr "Taille"
+
+#: charcontrol.cpp:156
+msgid "Legs"
+msgstr "Beine"
+
+#: charcontrol.cpp:157
+msgid "Boots"
+msgstr "Füße"
+
+#: charcontrol.cpp:159
+msgid "Bracers"
+msgstr "Handgelenke"
+
+#: charcontrol.cpp:160
+msgid "Gloves"
+msgstr "Hände"
+
+#: charcontrol.cpp:161
+msgid "Cape"
+msgstr "Rücken"
+
+#: charcontrol.cpp:163
+msgid "Right hand"
+msgstr "Waffenhand"
+
+#: charcontrol.cpp:164
+msgid "Left hand"
+msgstr "Schildhand"
+
+#: charcontrol.cpp:166
+msgid "Tabard"
+msgstr "Wappenrock"
+
+#: charcontrol.cpp:177
+msgid "Icon"
+msgstr "Emblem"
+
+#: charcontrol.cpp:178
+msgid "Icon Color"
+msgstr "Emblem Farbe"
+
+#: charcontrol.cpp:179
+msgid "Border"
+msgstr "Rahmen"
+
+#: charcontrol.cpp:180
+msgid "Border Color"
+msgstr "Rahmen Farbe"
+
+#: charcontrol.cpp:181
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: charcontrol.cpp:185
+msgid "Tabard details"
+msgstr "Wappenrock Details"
+
+#: charcontrol.cpp:188
+msgid "Choose mount"
+msgstr "Reittier auswählen"
+
+#: charcontrol.cpp:438
+msgid "Save equipment"
+msgstr "Ausrüstung speichern"
+
+#: charcontrol.cpp:438
+#: charcontrol.cpp:447
+#, fuzzy
+msgid "Equipment files (*.eq)|*.eq"
+msgstr "Equipment files (*.eq)|*.eq"
+
+#: charcontrol.cpp:447
+msgid "Load equipment"
+msgstr "Ausrüstung laden"
+
+#: charcontrol.cpp:1195
+#: charcontrol.cpp:1197
+msgid "Choose an item"
+msgstr "Gegenstand auswählen"
+
+#: charcontrol.cpp:1250
+msgid "Choose an item set"
+msgstr "Set auswählen"
+
+#: charcontrol.cpp:1250
+msgid "Item sets"
+msgstr "Sets"
+
+#: charcontrol.cpp:1274
+msgid "Choose a class"
+msgstr "Klasse auswählen"
+
+#: charcontrol.cpp:1274
+msgid "Classes"
+msgstr "Klassen"
+
+#: charcontrol.cpp:1335
+msgid "Choose a mount"
+msgstr "Reittier auswählen"
+
+#: charcontrol.cpp:1335
+msgid "Creatures"
+msgstr "Kreaturen"
+
+#msgid "Choose a character model"
+#msgstr ""
+#: charcontrol.cpp:1623
+#: viewcontrol.cpp:47
+msgid "Update View"
+msgstr "Aktualisieren"
+
+#: viewcontrol.cpp:48
+msgid "Save"
+msgstr "Speichern"
+
+#: viewcontrol.cpp:49
+msgid "Load"
+msgstr "Laden"
+
+#: viewcontrol.cpp:51
+msgid "Field of View:"
+msgstr "Sichtfeld:"
+
+#: viewcontrol.cpp:59
+msgid "Rotation (XYZ)"
+msgstr "Drehung (XYZ)"
+
+#: viewcontrol.cpp:64
+msgid "Light Pos (XYZ)"
+msgstr "Licht Pos (XYZ)"
+
+#: viewcontrol.cpp:69
+msgid "Model Pos (XYZ)"
+msgstr "Model Pos (XYZ)"
+
+#: animcontrol.cpp:29
+msgid "Pause"
+msgstr "Pause"
+
+#: animcontrol.cpp:31
+msgid "Skin"
+msgstr "Textur"
+
+#: animcontrol.cpp:36
+msgid "Item set"
+msgstr "Set"
+
+#: animcontrol.cpp:43
+msgid "Speed: 1.0x"
+msgstr "Geschwindigkeit: 1.0x"
+
+#: animcontrol.cpp:119
+msgid "Item"
+msgstr "Gegenstand"
+
+#: animcontrol.cpp:141
+msgid "(No doodads)"
+msgstr "(Keine doodads)"
+
+#: animcontrol.cpp:165
+msgid "This group has been removed from the WMO"
+msgstr "diese Gruppe wurde aus der WMO entfernt"
+
+#: animcontrol.cpp:333
+#, c-format
+msgid "Speed: %.1fx"
+msgstr "Geschwindigkeit: %.1fx"
+
+#: itemdb.cpp:9
+msgid "All"
+msgstr "Alle"
+
+#: itemdb.cpp:10
+msgid "Helmets"
+msgstr "Helme"
+
+#: itemdb.cpp:11
+msgid "Neck"
+msgstr "Hals"
+
+#: itemdb.cpp:12
+msgid "Shoulder armor"
+msgstr "Schulterstücke"
+
+#: itemdb.cpp:13
+msgid "Shirts"
+msgstr "Hemden"
+
+#: itemdb.cpp:14
+msgid "Chest armor"
+msgstr "Brustrüstungen"
+
+#: itemdb.cpp:15
+msgid "Belts"
+msgstr "Gürtel"
+
+#: itemdb.cpp:16
+msgid "Pants"
+msgstr "Hosen"
+
+#: itemdb.cpp:20
+msgid "Rings"
+msgstr "Ringe"
+
+#: itemdb.cpp:21
+msgid "Accessories"
+msgstr "Accessoires"
+
+#: itemdb.cpp:22
+msgid "Daggers"
+msgstr "Dolche"
+
+#: itemdb.cpp:23
+msgid "Shields"
+msgstr "Schilde"
+
+#: itemdb.cpp:24
+msgid "Bows"
+msgstr "Bögen"
+
+#: itemdb.cpp:25
+msgid "Capes"
+msgstr "Umhänge"
+
+#: itemdb.cpp:26
+msgid "Two-handed weapons"
+msgstr "Zweihandwaffen"
+
+#: itemdb.cpp:27
+msgid "Quivers"
+msgstr "Köcher"
+
+#: itemdb.cpp:28
+msgid "Tabards"
+msgstr "Wappenröcke"
+
+#: itemdb.cpp:29
+msgid "Robes"
+msgstr "Roben"
+
+#: itemdb.cpp:30
+msgid "One-handed weapons"
+msgstr "Einhandwaffen"
+
+#: itemdb.cpp:31
+msgid "Claws"
+msgstr "Faustwaffen"
+
+#: itemdb.cpp:32
+msgid "Offhand"
+msgstr "Schildhand"
+
+#msgid "?"
+#msgstr ""
+#: itemdb.cpp:33
+#: itemdb.cpp:34
+msgid "Thrown"
+msgstr "Geworfen"
+
+#: itemdb.cpp:35
+msgid "Guns and wands"
+msgstr "Gewehre und Zauberstäbe"
+
+#: itemselection.cpp:141
+msgid "Double-click to select only one category"
+msgstr "Doppelklick um nur eine Kategorie auszuwählen"
+
+#: itemselection.cpp:60
+msgid "Filter   "
+msgstr "Filter   "
+
+#: itemselection.cpp:63
+msgid "Clear"
+msgstr "Reset"
+

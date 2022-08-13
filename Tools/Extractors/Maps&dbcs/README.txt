@@ -1,0 +1,1 @@
+Copy ad.exe to main WoW folder and execute. When finished copy 'maps' folder to 'MaNGOS' folder in repack

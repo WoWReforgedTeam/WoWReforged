@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SpellEditor>
+  <SQLite>
+    <DatabaseFileName>SpellEditor</DatabaseFileName>
+  </SQLite>
+  <Language>enUS</Language>
+  <BindingsDirectory>D:\Programs\WoWSpellEditor\Bindings_112_vanilla</BindingsDirectory>
+  <DbcDirectory>D:\Programs\WoWSpellEditor\DBC_112_vanilla</DbcDirectory>
+  <WoWVersion>1.12.1</WoWVersion>
+  <MySQL>
+    <Host>127.0.0.1</Host>
+    <Username>admin</Username>
+    <Password>31xiqbp7</Password>
+    <Port>3306</Port>
+    <Database>reforged_mangos</Database>
+  </MySQL>
+</SpellEditor>
